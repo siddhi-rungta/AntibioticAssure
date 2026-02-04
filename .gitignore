@@ -1,3 +1,35 @@
+# Byte-compiled / caches
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+__MACOSX/
+
+# Environment files
+.env
+
+# Data: keep small example and processed (small) data, ignore large raw/downloaded datasets
+/data/synthea_large/
+/data/synthea_downloads/
+/data/synthea_processed_large/
+
+# Optional: ignore raw Synthea exports if you don't want to commit them
+# Uncomment to ignore all raw synthea tables
+# /data/synthea/
+
+# Logs
+logs/
+*.log
 # Python
 __pycache__/
 *.py[cod]
