@@ -1,5 +1,5 @@
-// API Base URL
-const API_BASE_URL = 'http://localhost:5000/api';
+// API Base URL - dynamically determine the host
+const API_BASE_URL = `${window.location.protocol}//${window.location.host}/api`;
 
 // Sample prescription data
 const SAMPLE_DATA = {
