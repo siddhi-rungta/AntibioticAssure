@@ -57,3 +57,5 @@ data/mimic/*.csv
 *.tmp
 *.bak
 .cache/
+data/
+*.csv
