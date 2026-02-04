@@ -722,8 +722,6 @@ http://localhost:5000/api
 
 <div align="center">
 
-**Built with ❤️ by JAIN University Students**
-
 *Fighting Antimicrobial Resistance, One Prescription at a Time*
 
 [⬆ Back to Top](#-ai-driven-system-to-detect-incorrect-or-excessive-antibiotic-prescriptions)
