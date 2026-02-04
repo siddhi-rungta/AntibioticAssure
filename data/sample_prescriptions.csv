@@ -1,0 +1,819 @@
+prescription_id,patient_id,patient_age,patient_weight_kg,diagnosis,antibiotic_prescribed,dosage_mg,frequency_per_day,duration_days,prescriber_id,date_prescribed,patient_allergies,comorbidities,is_appropriate
+SYN0,f0f3bc8d-ef38-49ce-a2bd-dfdda982b271,3,39,acute_otitis_media,amoxicillin,500,3,7,,2019-10-30,none,none,0
+SYN3,067318a4-db8f-447f-8b6e-f2f61e9baaa5,4,42,sprain of ankle,penicillin,500,3,7,43878008.0,2020-04-28,none,none,1
+SYN154,0bccccae-0961-4ee0-896a-d80729b22e6c,50,70,common_cold,penicillin,500,3,7,43878008.0,2020-05-12,none,none,0
+SYN379,f1a653f5-23ca-43c6-83b6-62e14b724846,47,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-08-30,none,none,1
+SYN380,f1a653f5-23ca-43c6-83b6-62e14b724846,47,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-11-09,none,none,1
+SYN550,c70992c9-ff13-467b-9032-1901506edeef,61,70,hypertension,vancomycin,1000,3,7,,2020-03-05,none,none,0
+SYN777,7078ae9a-4c79-4b30-b127-f76aabb6763e,52,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-02-29,none,none,1
+SYN782,8e558a6a-c25f-4c78-a615-457d5f09506b,30,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-29,none,none,1
+SYN1015,a5c39700-6bf3-4984-af46-31344695e21b,80,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN1099,419c213d-8d35-440c-bf47-a536f95df517,56,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1999-08-15,none,none,1
+SYN1250,b83237f3-9ff5-491e-aab4-d63ccff85f85,8,54,acute_otitis_media,penicillin,500,3,7,43878008.0,2019-11-13,none,none,0
+SYN1251,b83237f3-9ff5-491e-aab4-d63ccff85f85,8,54,acute_otitis_media,amoxicillin,500,3,7,,2020-01-21,none,none,1
+SYN1346,46988a9c-9c86-429a-bc4a-b3d14ff321b0,63,70,diabetes,vancomycin,1000,3,7,87628006.0,2020-03-22,none,none,0
+SYN1423,c1800ba1-7cba-45d7-bdc4-0e0b583932e4,2,36,acute allergic reaction,amoxicillin,500,3,7,,2019-07-14,none,none,0
+SYN1847,e4f2ee93-89f0-4339-b079-5b174190e18e,56,70,miscarriage in first trimester,amoxicillin,500,3,7,,2019-07-17,none,none,1
+SYN2065,6568af88-5e48-4989-bd31-84daa2170f2d,62,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,36971009.0,2020-04-02,none,none,1
+SYN2587,67ec4eb7-aa0f-4f5f-9c41-7c814d979b44,14,70,cough (finding),penicillin,500,3,7,43878008.0,2020-03-14,none,none,1
+SYN2856,e9ea0aae-80f9-485f-b3e6-8d956a49ecb3,41,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-08-11,none,none,1
+SYN2905,35d98e0f-5ffb-49bd-8438-f6f8b26535f7,29,70,hypertension,penicillin,500,3,7,43878008.0,2019-10-14,none,none,1
+SYN3175,53b51e7d-8179-4d03-a350-034475c68a0f,1,33,acute_otitis_media,amoxicillin,500,3,7,,2020-02-09,none,none,0
+SYN3182,603212c3-40ee-49f0-8af4-3bb90f9fa6b1,48,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-09-17,none,none,1
+SYN3455,3affb0e3-fa0e-47e0-9446-f866930d2b1b,34,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2010-05-23,none,none,1
+SYN3456,3affb0e3-fa0e-47e0-9446-f866930d2b1b,34,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-21,none,none,1
+SYN3743,44875dfe-5ebc-47fe-b7e2-304cb4ab4bc2,21,70,impacted molars,penicillin,500,3,7,43878008.0,2019-09-17,none,none,1
+SYN5066,623a76bd-5687-41ec-ad07-b9ccc67d971f,46,70,prediabetes,penicillin,500,3,7,43878008.0,2019-07-17,none,none,1
+SYN5596,216d0424-89d8-4ecf-9326-c2e93efd8c2e,16,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-08-09,none,none,1
+SYN5654,65fc4a93-f1da-45dc-a332-1ff0ff47d6f9,10,60,fracture subluxation of wrist,penicillin,500,3,7,43878008.0,2019-12-01,none,none,1
+SYN5911,53b2db95-6097-4329-90d2-eedc35506ef5,28,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-04-12,none,none,1
+SYN6672,9ff91ed5-06d8-48eb-baec-da829ec996ed,21,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-09-18,none,none,1
+SYN6682,5ff252af-cd22-4f57-a820-41eef42f67e8,36,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-06-09,none,none,1
+SYN7911,fda0a794-55b0-4e65-b25a-0327a614986b,5,45,acute_otitis_media,amoxicillin,500,3,7,,2019-09-26,none,none,0
+SYN8039,a5cdcef5-d528-4d31-8a13-c4ef62700fcf,25,70,acute_sinusitis,amoxicillin,500,3,7,75498004.0,2020-01-03,none,none,1
+SYN8165,383f22ba-9682-49e4-b30d-30233dfe3a9f,52,70,cardiac arrest,amoxicillin,500,3,7,,2019-09-25,none,none,1
+SYN8203,69a0175a-03d6-4661-b8d6-8eec37e16577,9,57,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-05-07,none,none,0
+SYN8700,e5abdbfb-6e6c-4ecd-a270-acee6be3bbd8,25,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-06-21,none,none,0
+SYN8713,34916863-676d-4224-9356-c28e78526641,58,70,prediabetes,vancomycin,1000,3,7,87628006.0,2020-03-10,none,none,0
+SYN9851,38057025-e091-4f86-a3b5-1332a1dad8be,34,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-08,none,none,1
+SYN9864,56d6909b-e097-4ccb-919d-1000d199afd2,28,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-13,none,none,0
+SYN9925,3f1b7eb0-0dc0-4555-ae2f-23dda4ab6712,23,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2019-06-14,none,none,1
+SYN9974,c16e1174-233b-4efd-8f47-aa12b35aef8a,80,70,hypertension,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN13149,b6161ebe-9d30-4558-9e76-ec25e3ce88cf,69,70,localized  primary osteoarthritis of the hand,amoxicillin,500,3,7,444814009.0,2019-05-19,none,none,1
+SYN13446,8804a769-6f11-45f8-950f-a78aea15350b,22,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-07-08,none,none,1
+SYN13451,e4b62eda-9955-42fd-9131-c73a6d295a7c,4,42,acute_otitis_media,amoxicillin,500,3,7,,2019-08-10,none,none,0
+SYN13828,9c399f32-5184-4e6d-8286-758b82919249,32,70,seizure disorder,azithromycin,250,2,7,840539006.0,2020-01-31,none,none,0
+SYN13838,97af9927-b109-4483-a161-f355464d4fbd,25,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-23,none,none,1
+SYN13850,b12b8413-b656-42a1-8a42-a9e843751189,2,36,acute_otitis_media,penicillin,500,3,7,43878008.0,2020-02-06,none,none,0
+SYN14687,78e14d39-c5a4-43da-8e60-0acca2523319,27,70,normal pregnancy,amoxicillin,500,3,7,444814009.0,2020-03-22,none,none,1
+SYN14691,933d7f42-af33-436a-b51c-04e72ef1b55d,3,39,acute_otitis_media,amoxicillin,500,3,7,,2020-04-04,none,none,0
+SYN16003,184884dc-7300-427b-ad7d-cb6102a5480f,110,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-11-21,none,none,1
+SYN16863,626fac82-b5fb-44ac-80ef-9dc90a52f024,12,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-30,none,none,1
+SYN16953,e9278893-71d9-4e7f-99e1-4deda01645cc,64,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-04-30,none,none,1
+SYN18009,ab51d9cb-6f34-4a2e-b08d-a05f9c140178,58,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-06-16,none,none,1
+SYN18816,af18e410-0124-4d97-a0ba-cb85a87a1b83,3,39,coronary heart disease,amoxicillin,500,3,7,,2019-11-12,none,none,0
+SYN20533,0100f99a-1b5d-4a5b-a73f-559a920412e5,105,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-19,none,none,0
+SYN20618,7c1a32e9-7b27-4cf5-8fb0-fbcbcb5d8a7f,10,60,appendicitis,penicillin,500,3,7,43878008.0,2020-04-10,none,none,1
+SYN21028,4bb24b0e-b273-43f9-a0a3-4e6320e7abef,51,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-03-06,none,none,1
+SYN22004,ac2a16c7-6dd3-4cbd-b99c-dbb54be6cebd,108,70,hypertension,amoxicillin,500,3,7,444814009.0,2001-10-18,none,none,1
+SYN25598,991959ab-0188-4916-aa95-664845579bb0,83,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN27131,477e44cc-8416-43fa-bcdd-908af4cfaa1f,17,70,impacted molars,penicillin,500,3,7,43878008.0,2019-05-27,none,none,1
+SYN29692,51d02f7d-6a65-4d6c-aa5f-ef43f1e372cb,83,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN30011,efab953b-96c2-4a1b-90cd-5a3b9d393222,20,70,nasal congestion (finding),penicillin,500,3,7,43878008.0,2020-04-11,none,none,1
+SYN31057,cd64b7e2-53a2-4fdb-b981-0374e4663452,9,57,streptococcal_pharyngitis,amoxicillin,500,3,7,444814009.0,2020-02-14,none,none,1
+SYN31263,8eeebf11-bb86-47aa-8aa3-958f226d8467,100,70,diabetes,amoxicillin,500,3,7,444814009.0,1958-07-16,none,none,1
+SYN31711,f15d55d1-215d-4ae1-865a-a6428d435708,103,70,fracture of ankle,penicillin,500,3,7,43878008.0,1919-11-29,none,none,1
+SYN37014,7d23ce3b-f183-4c63-8f33-5c953b212851,29,70,chronic pain,penicillin,500,3,7,43878008.0,2019-06-25,none,none,1
+SYN37023,60ce208e-eb6f-4c88-b02c-469aad51cda6,80,70,prediabetes,penicillin,500,3,7,43878008.0,2001-08-31,none,none,1
+SYN38447,d626eb3f-4662-45c6-8b53-ab815bef0df0,38,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-08-28,none,none,1
+SYN38640,65091553-c127-452d-b050-e0e7694a4adc,60,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-10,none,none,0
+SYN38912,51c03648-1588-457a-953e-e72fd64c4dad,67,70,rupture of appendix,amoxicillin,500,3,7,444814009.0,2020-01-20,none,none,1
+SYN41310,5fd2e55b-58dd-47cb-a5af-f54309af955c,15,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-20,none,none,0
+SYN41494,f829e769-cac8-43d1-94b7-e572e164ed21,5,45,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-09-11,none,none,0
+SYN41495,f829e769-cac8-43d1-94b7-e572e164ed21,5,45,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-05-21,none,none,0
+SYN43131,3b713e39-90db-4064-82d1-1e086ef21e01,3,39,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2019-11-16,none,none,0
+SYN43749,a6a837b9-b85b-43f6-8f1b-7037d64dd919,48,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2019-12-20,none,none,1
+SYN43751,0ee2ca2c-71b8-4fff-b54e-0fa2f12dfbe2,87,70,rupture of appendix,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN44090,4edbeaf9-2af2-415d-a3d7-e5deb030bbc8,106,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN44336,e01046e3-f9af-446b-aee5-9cee6efa1028,66,70,prediabetes,amoxicillin,500,3,7,444814009.0,1962-07-02,none,none,1
+SYN44337,e01046e3-f9af-446b-aee5-9cee6efa1028,66,70,prediabetes,amoxicillin,500,3,7,444814009.0,1993-09-03,none,none,1
+SYN44363,e01046e3-f9af-446b-aee5-9cee6efa1028,66,70,prediabetes,amoxicillin,500,3,7,36971009.0,2013-07-05,none,none,1
+SYN44564,7b3f374e-17ab-4be5-aee9-16ba4759482a,16,70,cardiac arrest,amoxicillin,500,3,7,444814009.0,2020-02-24,none,none,1
+SYN44810,ee8fbe08-ffa6-49c1-89f7-20114a3a0ee1,73,70,hypertension,penicillin,500,3,7,43878008.0,2014-10-31,none,none,1
+SYN45174,c291e393-d99f-41bc-aec0-68d997979abc,15,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-07,none,none,1
+SYN45580,9aa2ef0c-dc1c-4cb9-870a-4c42b996b8dd,59,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-11-10,none,none,1
+SYN46005,41332826-3d56-44cf-abb7-7a0180a49657,14,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2019-06-25,none,none,1
+SYN46006,41332826-3d56-44cf-abb7-7a0180a49657,14,70,seizure disorder,penicillin,500,3,7,43878008.0,2019-10-13,none,none,1
+SYN46059,aeb75bc5-6d51-4e67-83f6-245ff8e05209,2,36,acute_otitis_media,amoxicillin,500,3,7,,2020-04-25,none,none,0
+SYN46331,da319b46-7ea4-4152-87d4-ae9e37b8f532,98,70,osteoporosis (disorder),amoxicillin,500,3,7,444814009.0,2011-04-06,none,none,1
+SYN49186,06559de6-a90b-46d9-b9bf-1eb876f3c176,73,70,pulmonary emphysema (disorder),vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN49313,78b120c7-c8d4-41e1-99ba-9b1dfd67f10c,79,70,seizure disorder,vancomycin,1000,3,7,,2020-03-05,none,none,0
+SYN49503,a25dd796-486a-4cc2-8bee-ba440badbd9c,79,70,hyperlipidemia,amoxicillin,500,3,7,,2019-05-24,none,none,1
+SYN51954,86e6a3f7-7e01-4fbd-adcd-6bbd0d0f3b08,21,70,normal pregnancy,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN52558,476e877f-918b-4a47-956f-e26c7bfd9c70,54,70,hypertension,amoxicillin,500,3,7,36971009.0,2020-02-28,none,none,1
+SYN53267,8c6e59ac-c172-48f6-9e3d-5bdce628ddef,75,70,miscarriage in first trimester,azithromycin,250,2,7,840539006.0,2020-03-15,none,none,0
+SYN53271,8c6e59ac-c172-48f6-9e3d-5bdce628ddef,75,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN53573,cff06f6b-6b0f-41e4-abd5-4edd7ad5a834,4,42,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-07-06,none,none,0
+SYN54199,28e8f58a-0cd6-4e15-8557-90e9afb80663,3,39,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-11-03,none,none,0
+SYN54274,9233763a-9561-4d51-8042-c47479943e08,36,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-23,none,none,0
+SYN54278,0736e433-1c4e-4927-bb7f-183fd523929f,35,70,normal pregnancy,amoxicillin,500,3,7,444814009.0,2019-08-19,none,none,1
+SYN54280,f3cecab0-d15f-48ae-9d3b-2d47c3499782,55,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-07-15,none,none,1
+SYN54282,77a612eb-edc5-4d65-8d54-5e891b6f4057,2,36,acute_otitis_media,amoxicillin,500,3,7,,2020-01-23,none,none,0
+SYN54550,6058da5e-be42-4d7d-9e43-fe611c48531f,2,36,sputum finding (finding),amoxicillin,500,3,7,,2020-03-09,none,none,0
+SYN54810,616e5019-d4bf-46d7-805a-baff99a270d6,34,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-01,none,none,1
+SYN55115,470a1368-5596-4d38-9593-e5d67a6e156d,101,70,seizure disorder,vancomycin,1000,3,7,,2020-03-06,none,none,0
+SYN55217,7304f445-32c2-456f-9f14-d55e194d20e7,28,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-02-25,none,none,1
+SYN57337,ce901c8f-5d39-4f51-968b-75198575151b,52,70,body mass index 30+ - obesity (finding),azithromycin,250,2,7,840539006.0,2020-02-13,none,none,0
+SYN57416,019078cb-6952-4ef4-a109-12795cd9d588,84,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2008-01-04,none,none,1
+SYN57469,c20b037e-a2f5-4aff-9782-9d31d4bd35c6,30,70,common_cold,amoxicillin,500,3,7,,2020-04-02,none,none,0
+SYN57625,6b70678f-2ab4-4ba3-8bb3-978fed38591e,39,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-12-19,none,none,1
+SYN57626,6b70678f-2ab4-4ba3-8bb3-978fed38591e,39,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-30,none,none,1
+SYN57851,0a532503-58f5-4d18-9c8c-4b05ae768d1f,80,70,coronary heart disease,amoxicillin,500,3,7,444814009.0,2018-08-25,none,none,1
+SYN57891,181362b5-b8be-4ca0-a07d-5a38480efeb6,14,70,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2020-01-02,none,none,0
+SYN57892,181362b5-b8be-4ca0-a07d-5a38480efeb6,14,70,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2020-04-12,none,none,0
+SYN58554,ff966dc4-d43d-40f7-b225-3a2034cdd962,83,70,prediabetes,vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN59994,388fcce3-1177-4d6a-8162-3d5ff72e0e6b,77,70,coronary heart disease,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN60443,a91f8984-6882-47e3-ac62-e36354beae71,53,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-11-25,none,none,1
+SYN60790,7c1f88ff-9515-470b-ad20-cdabba98339f,12,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-08-18,none,none,1
+SYN60981,c237f7e7-1fb9-42fb-9dd0-fbb8d92e8dd7,64,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-05-25,none,none,1
+SYN61138,326a9729-80d9-4d17-b2fa-62ef768585dc,2,36,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-27,none,none,0
+SYN61182,61a078f6-229b-42aa-bfca-6d46dc9feb36,60,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-06-14,none,none,1
+SYN61248,758c92f1-acbd-4e08-b3c7-b960cbb5a850,100,70,cardiac arrest,penicillin,500,3,7,43878008.0,1986-03-04,none,none,1
+SYN61788,8e0e0ea6-85e8-48c3-b49b-ea5a6d1dae03,51,70,hypertension,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN61835,efa9155d-c11d-4133-9f35-b75203aa31d1,59,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-02-28,none,none,1
+SYN62056,75d33406-b582-4221-a857-af4504ea0644,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-10-30,none,none,0
+SYN64588,0213e874-83e8-4d31-bba6-f81068c4135a,60,70,hypertension,amoxicillin,500,3,7,444814009.0,2016-05-05,none,none,1
+SYN64818,a4063a46-50af-4bb6-86fa-22741c2abf12,10,60,dyspnea (finding),amoxicillin,500,3,7,444814009.0,2020-03-10,none,none,1
+SYN64819,30cb458b-8a9b-4e85-aa52-59e7d1d36f30,6,48,cardiac arrest,amoxicillin,500,3,7,,2019-05-31,none,none,0
+SYN64890,ef115d26-74a0-4a28-8bdb-ea8040280e4b,52,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-03,none,none,0
+SYN65477,750a61bb-c73c-4947-94d5-ef909464a2af,76,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-11-14,none,none,1
+SYN65495,03dd0b02-5917-4cd2-a44d-d52eafb026c7,110,70,osteoarthritis of hip,amoxicillin,500,3,7,444814009.0,2019-10-05,none,none,1
+SYN67501,b6ee973b-c3a2-4fea-a513-83231f63a203,67,70,hypertension,vancomycin,1000,3,7,,2020-03-05,none,none,0
+SYN67912,c2a6ae4b-becd-41d6-827a-4deb130c759e,63,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN68839,6ffdad4a-6793-4956-a11a-6cb7fcbbf013,98,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-08-27,none,none,1
+SYN69824,e0c2e6a1-1fcf-4e69-9aeb-20c068d7f53b,31,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-06-11,none,none,1
+SYN70656,cd43cc40-feac-42ca-b80c-201ab04cc3ea,75,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-27,none,none,0
+SYN70671,12d9bb65-605a-4fe5-b8ef-a7665a6c00e8,39,70,miscarriage in first trimester,penicillin,500,3,7,43878008.0,2019-08-14,none,none,1
+SYN70676,b24f3797-7f31-4b59-ba55-c22f964ccc69,1,33,fever (finding),amoxicillin,500,3,7,,2020-04-06,none,none,0
+SYN72253,7f72e14f-b69a-4aa9-a193-10db5c497fa8,65,70,common_cold,vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN72396,7bd76a4a-fdbe-485d-a4b2-b279822abc8d,65,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-09-03,none,none,1
+SYN72660,7ed96e33-bea3-4390-b81f-6d0d3b23f91b,90,70,seizure disorder,amoxicillin,500,3,7,444814009.0,1995-09-05,none,none,1
+SYN76296,8ac04c56-cd69-4436-af4e-9725eea77aec,56,70,hypertension,penicillin,500,3,7,43878008.0,2019-12-22,none,none,1
+SYN76371,746fbaee-8220-4fec-bfed-d4f503d1c551,24,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-07-17,none,none,1
+SYN76558,0c37e93e-4f8a-4907-95e1-ca661fd44b3d,89,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2003-12-20,none,none,1
+SYN77290,4bb16e04-fd67-4fb1-afae-c0f1a02a78b7,89,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2014-07-27,none,none,1
+SYN77535,d466592d-8cc2-4cf1-b5f8-382905393325,6,48,atopic dermatitis,amoxicillin,500,3,7,444814009.0,2020-05-03,none,none,0
+SYN77663,4e1b7d92-4424-4f93-a4fa-aa0af3311f5a,72,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN77783,0fad8393-f08f-4ea1-b47f-362c4522e037,54,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-10-26,none,none,1
+SYN77855,60673a33-fea9-444b-b982-a2ed59c3bf45,65,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-07-04,none,none,1
+SYN77913,587623fb-280c-4063-af29-8223e2b7fa1a,5,45,sprain of ankle,penicillin,500,3,7,43878008.0,2020-04-11,none,none,1
+SYN78113,27c2228d-c127-4325-90b7-f96e078cc34e,83,70,hypertension,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN78459,f913746f-3f9a-4b14-8d8d-9e5a5ad68ab2,20,70,cough (finding),penicillin,500,3,7,43878008.0,2020-05-08,none,none,1
+SYN79851,99b1394b-14a1-4494-91a0-1bc4fbf995fd,67,70,prediabetes,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN80689,1b3e5e29-1357-4c74-8c17-f702d7b4c525,3,39,acute_otitis_media,amoxicillin,500,3,7,,2019-09-26,none,none,0
+SYN80754,4552b960-17ea-4e96-a972-8d06dfce045c,56,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-05-20,none,none,1
+SYN80954,dbc6cc1f-b7ea-448f-8093-f820d75a37d7,75,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN81180,d0b8dadc-5de7-4fe3-ad21-1c6e3e397374,89,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN81568,fce6ba17-a080-4bc4-aaba-3e1874f94b06,3,39,acute_otitis_media,amoxicillin,500,3,7,,2020-05-08,none,none,0
+SYN81608,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1948-01-15,none,none,1
+SYN81609,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,1966-07-29,none,none,1
+SYN81610,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1972-04-30,none,none,1
+SYN81612,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1988-08-31,none,none,1
+SYN81614,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2008-09-25,none,none,1
+SYN81616,c9a3017a-f627-437a-bdfb-68a0c1cc5cef,89,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2015-08-26,none,none,1
+SYN82015,838fcf9c-ef79-4112-9aa6-eedcca23baa3,1,33,acute_otitis_media,penicillin,500,3,7,43878008.0,2019-09-08,none,none,0
+SYN82016,838fcf9c-ef79-4112-9aa6-eedcca23baa3,1,33,acute_otitis_media,amoxicillin,500,3,7,,2019-11-18,none,none,0
+SYN82046,facbd48b-6402-45b4-97fe-95c07ba1cf5e,45,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-08-18,none,none,1
+SYN83037,fdcf8977-494c-4daa-aff0-648549053d56,33,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-03-21,none,none,1
+SYN83104,26927b16-4634-4a54-b5be-973c29e428ad,45,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-04-30,none,none,1
+SYN83147,99735c0c-7126-4d33-b73f-29a351219156,25,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-03-09,none,none,0
+SYN83332,965a7d0d-8301-4f9d-b72a-132ec9935753,82,70,acute_sinusitis,vancomycin,1000,3,7,,2020-02-13,none,none,0
+SYN83798,20ef9f88-a862-4991-9833-0453f464767a,68,70,prediabetes,amoxicillin,500,3,7,36971009.0,2019-05-03,none,none,1
+SYN83804,20ef9f88-a862-4991-9833-0453f464767a,68,70,prediabetes,azithromycin,250,2,7,840539006.0,2020-03-05,none,none,0
+SYN84042,0e045333-f4d6-4cab-a804-76734182006a,47,70,common_cold,penicillin,500,3,7,43878008.0,1987-05-17,none,none,0
+SYN84873,bf455112-195e-4ce6-bc7b-634c9cdd92e5,28,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,2019-10-07,none,none,1
+SYN84958,cd909ed4-861c-4bca-8f92-6ab2b21bd657,104,70,hypertension,penicillin,500,3,7,43878008.0,1987-01-30,none,none,1
+SYN85098,ad8d4526-138c-48af-9c7d-44ddae1775b1,95,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-07-11,none,none,1
+SYN85107,8ad7e663-be4f-40cc-915f-403397bdcf7a,79,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN85323,cce6ff9f-9df4-4a68-814b-d6aa3bd1cdec,110,70,cardiac arrest,vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN87267,94698ff9-e4a8-46bb-a285-44a03779b7ee,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN87501,96208f01-06df-4b62-8bcc-c6e51435a8f8,20,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-01-05,none,none,1
+SYN87994,df31d6c1-54b9-435f-bcea-40d254a3b095,85,70,atrial fibrillation,vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN88184,3edc153d-1bed-44cc-979c-b142d02dd6e0,8,54,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-10-18,none,none,0
+SYN88841,e05ce20d-c112-40a6-aabf-76b07a931fe9,50,70,coronary heart disease,amoxicillin,500,3,7,444814009.0,2019-07-25,none,none,1
+SYN88879,ff99d668-a690-40d7-9be7-e970244dde2a,4,42,atopic dermatitis,amoxicillin,500,3,7,,2019-05-26,none,none,0
+SYN89339,51fe9924-ee23-4755-8d03-e72dca2811ad,84,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-02-13,none,none,1
+SYN89624,c460647d-26f1-4584-a014-2b40bc872eb8,44,70,hypertension,penicillin,500,3,7,43878008.0,2019-09-08,none,none,1
+SYN89707,33ed3e05-cb44-45ec-a51c-f618f9588ef4,51,70,hypertension,vancomycin,1000,3,7,,2020-02-29,none,none,0
+SYN90784,ff078fdb-64c8-401a-a65b-57a672140727,1,33,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2020-02-05,none,none,0
+SYN91290,bce383c4-1323-4782-bdf0-7f60eff01f77,81,70,prediabetes,vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN91325,c509943f-7a3c-4501-ba42-20962f9b44d3,42,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2019-05-27,none,none,1
+SYN91331,bff9a047-1d13-44de-851c-2843e59b3926,41,70,seizure disorder,doxycycline,100,2,7,,1979-10-12,none,none,1
+SYN91546,e9584f13-2aa2-4ad8-9f83-db73d0f034fd,38,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-12-02,none,none,0
+SYN91831,6e0d6f2e-8833-4ee1-9d0c-821bb7163b2d,15,70,common_cold,amoxicillin,500,3,7,,2019-09-06,none,none,0
+SYN92143,8d0346d4-e72c-4af8-91f7-33d7e0baedb8,98,70,hypertension,amoxicillin,500,3,7,444814009.0,2003-11-06,none,none,1
+SYN92232,e42ac691-01f8-44a6-beac-4059d9650ffe,14,70,fracture of clavicle,amoxicillin,500,3,7,444814009.0,2020-01-17,none,none,1
+SYN92641,d5d2b478-c7ab-44cc-8eb1-66ef91f7356a,23,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-05-28,none,none,0
+SYN92711,1b112a4d-b6b8-46ba-bda1-0ec8e4f76cf6,85,70,diabetes,amoxicillin,500,3,7,444814009.0,2019-12-02,none,none,1
+SYN92725,1b112a4d-b6b8-46ba-bda1-0ec8e4f76cf6,85,70,diabetes,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN93078,3122063a-5aba-4dbe-9f84-a7e776cd4c62,36,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-02,none,none,0
+SYN93306,edee8f1d-c3fd-429f-8d6f-c3c9b4c40b81,2,36,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-08,none,none,0
+SYN93683,aab28278-4d1f-4e0c-a3c7-765ce55b6bde,1,33,acute_otitis_media,amoxicillin,500,3,7,,2020-03-08,none,none,0
+SYN95014,a2c15f4b-1d21-4ce7-87a7-38f556a45dda,18,70,appendicitis,amoxicillin,500,3,7,444814009.0,2019-08-12,none,none,1
+SYN96999,d1ae859b-93f5-4a18-a10f-740379a6eb04,103,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2002-09-08,none,none,1
+SYN98412,53bc4f8e-bedf-4e54-b7b0-91cf15cdafb0,27,70,acute_sinusitis,vancomycin,1000,3,7,87628006.0,2020-03-23,none,none,0
+SYN99371,46137aea-ebb5-40c1-a036-aa3d5b93dfa0,44,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-07-15,none,none,1
+SYN99385,fe0ddd0c-6397-42f9-9caf-5910c5503f36,41,70,seizure disorder,amoxicillin,500,3,7,444814009.0,1983-10-15,none,none,1
+SYN99510,668fb811-3103-48e5-8869-64e1831bbae2,76,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN99944,c9a54b3a-674a-4aa2-9127-5b947b6ef31d,57,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-10-09,none,none,1
+SYN100182,bfed0bdf-2fa3-4f7b-b959-ebac34aa9704,25,70,headache (finding),vancomycin,1000,3,7,87628006.0,2020-03-15,none,none,0
+SYN101101,0f73ce50-1e1b-4e71-b814-8a3df80d18a0,58,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-03-18,none,none,1
+SYN101238,3d81b789-4a0c-4aa7-badf-aa6adc5261cf,39,70,coronary heart disease,penicillin,500,3,7,43878008.0,2019-07-11,none,none,1
+SYN101248,7f3fd99e-bd0e-41ed-bbc1-8b3b9d537eaa,58,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-05-07,none,none,1
+SYN102210,ab293bd5-90f8-462c-a9af-8c215895a9e6,74,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN102442,704f9b5d-d839-4640-b3cd-a118e7d48140,3,39,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-11-27,none,none,0
+SYN102703,fef3b519-ea8b-4faf-81c1-1138710a95ef,63,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-17,none,none,1
+SYN102995,3d031203-2085-4512-83f2-4ecda1b74c85,66,70,common_cold,vancomycin,1000,3,7,87628006.0,2020-03-17,none,none,0
+SYN103159,6216371d-a8e6-4628-a0e1-0cfb103fea52,4,42,acute_otitis_media,vancomycin,1000,3,7,87628006.0,2020-03-21,none,none,0
+SYN103841,a8380693-d3ae-48b7-a90c-634eba35c28b,74,70,acute_sinusitis,vancomycin,1000,3,7,,2020-02-26,none,none,0
+SYN104512,8bbd059a-c771-4661-b5b1-ac73c485b63b,18,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-30,none,none,1
+SYN104523,780f6909-7dc1-4057-bee0-69b38e1dc6c5,43,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-09-15,none,none,1
+SYN104590,56f1f71d-5765-4c00-8a52-557c90397acc,13,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-13,none,none,1
+SYN104942,c27d1414-cd71-4fd8-a6cc-2cc648fd6537,35,70,prediabetes,amoxicillin,500,3,7,444814009.0,2020-05-04,none,none,1
+SYN105275,be3ab5f0-623a-42dc-958f-b985842e6708,20,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-04-02,none,none,1
+SYN105659,01e949e1-ccb9-401c-8a13-d5f548f210dd,49,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-09,none,none,0
+SYN105722,fb933a49-bce8-426f-9399-7f6432107bdf,80,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-08-30,none,none,1
+SYN105855,b5976429-7314-4f41-b57c-e785ac94342e,11,63,cardiac arrest,amoxicillin,500,3,7,444814009.0,2019-11-25,none,none,1
+SYN105910,f27661a8-b751-49f1-ba4b-6b743bcf70e2,16,70,second degree burn,amoxicillin,500,3,7,,2019-10-31,none,none,1
+SYN105936,440dab19-5115-4962-a27a-63c1e33262bd,51,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-16,none,none,1
+SYN106845,242df5d6-37dd-4458-ae5e-5d126e9b1096,35,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-08-29,none,none,1
+SYN106884,48afb58c-c98d-4025-ad45-3b5868fc427f,46,70,hypertension,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN107577,2d6e4598-d3c4-4c6d-bdaf-edc103966c7f,66,70,prediabetes,vancomycin,1000,3,7,87628006.0,2020-03-18,none,none,0
+SYN107600,8f606f87-f8fc-4590-9a90-a014bccf985b,84,70,osteoarthritis of hip,amoxicillin,500,3,7,444814009.0,2015-01-13,none,none,1
+SYN108785,91678a16-eee3-4911-b29c-34945d91e529,65,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,1956-02-11,none,none,1
+SYN108926,91678a16-eee3-4911-b29c-34945d91e529,65,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2016-08-21,none,none,1
+SYN108935,91678a16-eee3-4911-b29c-34945d91e529,65,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-21,none,none,1
+SYN109189,dabcfb00-5aec-40ab-8093-e8ad8ccec4e8,18,70,childhood asthma,amoxicillin,500,3,7,444814009.0,2020-03-06,none,none,1
+SYN109237,d9f4443b-2f82-47db-8d23-068e3d20c7d8,45,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-06-23,none,none,0
+SYN109240,d9f4443b-2f82-47db-8d23-068e3d20c7d8,45,70,common_cold,amoxicillin,500,3,7,444814009.0,2020-05-01,none,none,0
+SYN109338,307c331d-c967-47f3-a908-fe2edf8803f4,34,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-09-06,none,none,1
+SYN109599,ae5903fa-f96b-4a7c-a9ae-b93bbf932360,105,70,hypertension,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN109855,019505ce-1508-4c59-b34a-0a5626e403b2,53,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-04-11,none,none,1
+SYN109899,ced7b92b-e348-4bf3-924a-7b0bdce1cff8,56,70,brain damage - traumatic,vancomycin,1000,3,7,87628006.0,2020-03-22,none,none,0
+SYN110100,bdad8658-ac1c-42f4-a127-e5880eb54ef3,54,70,hypertension,vancomycin,1000,3,7,,2020-03-06,none,none,0
+SYN110380,a3be15b2-5a6d-4470-a19c-1e276c2dc443,109,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN111709,1b95f3c6-b984-4eac-bf63-8afeb582528d,68,70,hypertension,vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN112048,e10bb27f-b542-4799-b919-d94101867eb6,6,48,acute_bronchitis,penicillin,500,3,7,43878008.0,2020-02-15,none,none,0
+SYN112576,b1d854d0-55f7-4d6a-a94d-85ef3bbbfcaa,76,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN112734,fad66551-3ba2-4143-825b-e9d4e73642d5,76,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,,1990-01-19,none,none,1
+SYN113979,fba8b930-0f07-4d88-b862-bdf37b9494c0,76,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-10,none,none,0
+SYN114072,d92dc392-0181-40d1-823c-7bedb728bb65,79,70,hypertension,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN114139,50271df1-a7d0-4435-ba9a-e5c22d8b41fe,3,39,childhood asthma,amoxicillin,500,3,7,,2019-07-08,none,none,0
+SYN115079,2a0857c8-a318-4139-979d-f95067195161,68,70,hypertension,vancomycin,1000,3,7,,2020-03-10,none,none,0
+SYN116741,8ebb1fd9-ed19-456c-9813-ad9c8e8d9324,49,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-19,none,none,0
+SYN116811,1f23b294-832d-4a4b-b8b1-c03bfcdf4c9e,6,48,acute_otitis_media,amoxicillin,500,3,7,,2019-11-16,none,none,0
+SYN118775,b115e05f-ff07-4ac2-acca-60ce01c0ffe1,71,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-12-02,none,none,1
+SYN118939,5217ad2c-8425-4a24-a278-cc1bd2e40a52,60,70,hypertension,penicillin,500,3,7,43878008.0,2020-03-24,none,none,1
+SYN119546,30048a34-9ae7-42cc-b791-f8f8a555cedc,7,51,acute_otitis_media,amoxicillin,500,3,7,,2019-12-16,none,none,1
+SYN121879,909f93bf-c79e-42d6-b100-1a58393cdc3f,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-12-31,none,none,0
+SYN123346,e0324b7d-877e-4399-975e-65da58f0f7a8,62,70,appendicitis,penicillin,500,3,7,43878008.0,2020-04-22,none,none,1
+SYN125182,159442bf-bb76-492b-a80c-d7b33d1976a8,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-09-18,none,none,0
+SYN126300,a9ab7d26-c04f-4b6e-bb9d-7b6fb43b9d7d,65,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-19,none,none,0
+SYN126312,a4ff8ce3-5f5c-49ae-a551-4e2d3466face,51,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-01,none,none,1
+SYN126409,2d6dd98d-2c7f-4784-843a-d2ce99b63af6,64,70,hypertension,penicillin,500,3,7,43878008.0,2019-09-19,none,none,1
+SYN126412,2d6dd98d-2c7f-4784-843a-d2ce99b63af6,64,70,hypertension,vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN126423,ce1256e2-8a77-4716-b415-54e88ff2a96d,62,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-07-10,none,none,1
+SYN126474,ee7d3726-93c9-4316-a76d-562e5ae0f6ce,65,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-12-24,none,none,1
+SYN126480,73822aa0-4c25-400b-abc3-06e80b98148e,66,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN126782,591ba91f-2d35-4e06-8ad7-7e0a4a8d41fc,20,70,acute_sinusitis,azithromycin,250,2,7,840539006.0,2020-03-18,none,none,0
+SYN127458,54726936-18b8-4d9d-b4ca-0e4140d7a45c,68,70,miscarriage in first trimester,azithromycin,250,2,7,840539006.0,2020-03-08,none,none,0
+SYN128004,4a2fbf44-e731-4428-9e29-2a4e669449bd,32,70,appendicitis,amoxicillin,500,3,7,444814009.0,2020-02-09,none,none,1
+SYN128122,968ac587-d122-4b59-997e-c9f475fc3f83,56,70,common_cold,penicillin,500,3,7,43878008.0,2020-04-07,none,none,0
+SYN128447,89046b8f-dd1f-4ccb-b549-38a7d7bab9aa,7,51,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2019-10-17,none,none,1
+SYN128448,89046b8f-dd1f-4ccb-b549-38a7d7bab9aa,7,51,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2020-02-28,none,none,1
+SYN128522,bece27c7-492c-43eb-ae98-c2e4e098664f,11,63,whiplash injury to neck,penicillin,500,3,7,43878008.0,2020-03-13,none,none,1
+SYN128913,6694aaa6-0bbb-4a95-ac09-bd8695bff694,37,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-08-14,none,none,1
+SYN129136,a529abee-0ddd-49f2-bf21-c0ffae3754a6,70,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2019-11-16,none,none,1
+SYN129146,c55dbd0c-d960-4d7d-9d02-dca6d8f259e9,9,57,atopic dermatitis,penicillin,500,3,7,43878008.0,2019-10-26,none,none,1
+SYN129150,1c26601c-a348-4a26-8688-b9e2462ca509,37,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-03-12,none,none,1
+SYN129516,1d6acb75-ec8d-4239-9332-7dbfbfcd1000,89,70,acute_otitis_media,amoxicillin,500,3,7,,2009-11-06,none,none,1
+SYN129720,cfba9a47-2f76-407f-8090-fc04d68ad620,89,70,prediabetes,vancomycin,1000,3,7,87628006.0,2020-03-16,none,none,0
+SYN131619,c0851fed-8711-4514-81c3-1caabc1fd286,28,70,hypertension,penicillin,500,3,7,43878008.0,2020-02-13,none,none,1
+SYN131622,5efbbdd2-aaf2-4d9f-b975-9a268b100b83,9,57,child attention deficit disorder,amoxicillin,500,3,7,444814009.0,2019-12-29,none,none,1
+SYN132822,7b1b881e-59bf-4d00-8630-a42dc334157e,15,70,acute_bronchitis,penicillin,500,3,7,43878008.0,2020-04-11,none,none,0
+SYN133386,95c49f6d-bca3-41db-8a2f-41b226a760f8,32,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-03-05,none,none,1
+SYN133396,d40945db-8d56-48a3-9992-32c737e5e537,3,39,acute_sinusitis,amoxicillin,500,3,7,36971009.0,2019-07-16,none,none,0
+SYN133741,574ab106-5332-494b-8a9a-2b7412637b0c,3,39,childhood asthma,penicillin,500,3,7,43878008.0,2020-02-10,none,none,1
+SYN135324,3f0030f3-b3ed-46dc-9f44-b576efb17658,84,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-13,none,none,1
+SYN135628,37373397-506f-44ff-b303-3c0ee945f758,84,70,streptococcal_pharyngitis,amoxicillin,500,3,7,36971009.0,2013-03-31,none,none,1
+SYN135790,9a9d57d1-78bb-448f-b09f-fc0b2124fe97,33,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-10-01,none,none,1
+SYN135963,f630b9d6-c5f2-415b-8653-6267e11451a2,67,70,hypertension,penicillin,500,3,7,43878008.0,2019-12-27,none,none,1
+SYN138403,b1fabe16-0fbe-4ded-82d1-c2664fe905a7,42,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-11-03,none,none,1
+SYN138408,c93f9e4c-3295-4ba4-acbd-181580576683,61,70,seizure disorder,penicillin,500,3,7,,1960-10-25,none,none,1
+SYN138873,de3258ee-34b4-4a48-b2b8-470571f11f22,58,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-11,none,none,0
+SYN139256,f8c64726-8d05-4424-9333-7668a82207be,55,70,chronic pain,amoxicillin,500,3,7,36971009.0,2019-08-18,none,none,1
+SYN139287,13a5af22-3bde-42ae-9be5-4bac11f011f3,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-08-07,none,none,0
+SYN139563,da9f5f12-ddcc-4468-ab82-a2686be9e529,84,70,seizure disorder,vancomycin,1000,3,7,,2020-03-03,none,none,0
+SYN140294,8b4e7825-c6ef-4b8b-ac89-362732d4e60e,32,70,hypertension,vancomycin,1000,3,7,,2020-03-22,none,none,0
+SYN140631,98dc556a-8584-4489-940c-a34440f4243f,66,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN141054,d8b9d8be-e6d6-461a-8ac6-77ebfc093c32,54,70,osteoarthritis of knee,azithromycin,250,2,7,840539006.0,2020-03-01,none,none,0
+SYN141074,8fcee05d-bae4-437f-b307-34ce4dcec5c4,4,42,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-11-13,none,none,0
+SYN142056,b0e6ce8a-8120-49c1-801b-0a8affeaba65,61,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-12-01,none,none,0
+SYN143677,653aa71c-aa48-4f0f-bf04-43c1dcc9a1e1,63,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN143735,fa620c9d-b4c9-416e-8f41-d3b052315fc9,108,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1968-01-15,none,none,1
+SYN144854,2fc0ce7b-2d72-43ca-962c-2480a4a785d0,41,70,normal pregnancy,amoxicillin,500,3,7,444814009.0,2019-06-09,none,none,1
+SYN146337,a6baaa67-1e2c-4c32-b428-368c4609aec4,57,70,acute_bronchitis,vancomycin,1000,3,7,87628006.0,2020-04-02,none,none,0
+SYN148670,616a4a92-38df-4326-9da3-fc09dabef837,61,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-02-08,none,none,1
+SYN148683,0eab5dac-862c-45f0-bb5b-7a67acb4e153,9,57,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-13,none,none,1
+SYN149598,a69d106c-9e4a-4eb9-887f-15ad40aa8227,110,70,hypertension,amoxicillin,500,3,7,75498004.0,1995-06-12,none,none,1
+SYN150753,c5bc1bb8-b03a-4462-adbf-e573aa4bb9f0,7,51,common_cold,amoxicillin,500,3,7,444814009.0,2019-10-19,none,none,0
+SYN150818,cff4a354-d349-435b-9f52-ebb27c71c91a,110,70,prediabetes,penicillin,500,3,7,43878008.0,1987-07-18,none,none,1
+SYN151572,5430e3df-1000-41be-b12d-5dc3260b481c,13,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-10-18,none,none,0
+SYN151616,f65bef7c-9cb6-4cea-acb6-063c71cf0f13,15,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-06-25,none,none,0
+SYN151657,8eb052ef-b24f-4290-8d7a-4054824a3a00,67,70,malignant neoplasm of breast (disorder),vancomycin,1000,3,7,,2020-02-21,none,none,0
+SYN151842,0fd8a385-1015-4b83-9132-d3ed53fc97f4,75,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-30,none,none,0
+SYN151920,d4e21fcb-61d0-44f0-a52c-cf942450279c,37,70,hypertension,penicillin,500,3,7,43878008.0,2019-08-13,none,none,1
+SYN156836,5002f837-47fd-4228-aa3b-fafd59b22256,75,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-05-14,none,none,1
+SYN157802,cb5d1471-050d-480c-a9f3-eec504214d3a,79,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-11-28,none,none,0
+SYN157873,a1c37888-20e6-475e-8f49-74b6afd9588b,47,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-28,none,none,0
+SYN157884,c8d94914-3705-40c0-8721-b97942563eb4,23,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-05-23,none,none,1
+SYN158129,8501ae73-7de8-446c-8506-0d4f25f10ad1,67,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-03-30,none,none,1
+SYN158475,90daaf01-89c2-460a-9a48-25382bbc5a6d,2,36,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-18,none,none,0
+SYN160019,bd8b5ecf-5aa2-4b12-9233-eb9ef41f68f0,50,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-12-22,none,none,1
+SYN160226,45ab4e6b-37eb-4cce-a3b0-a3128dd3b5f0,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN161171,eaa6b2e4-307a-46a8-bd48-95de7417feaa,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN163049,ec5ae087-8f13-46b2-be25-6e690f0050d2,21,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-02-06,none,none,1
+SYN163611,1d023a03-fcd0-42b8-8f95-d1fc53f978bc,52,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN163808,4e74410c-3f39-459c-87dd-72f9c5556de1,18,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-11,none,none,1
+SYN164142,6f73041a-a278-4653-b97e-da6788806eb4,86,70,acute_sinusitis,azithromycin,250,2,7,840539006.0,2020-02-25,none,none,0
+SYN164260,4bfc7cd6-62dd-431b-83d8-4b89a84e3912,52,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-10-21,none,none,1
+SYN164773,879dd387-3900-4c51-ad4e-e4d0a1f1a15d,45,70,seizure disorder,amoxicillin,500,3,7,444814009.0,1977-07-29,none,none,1
+SYN164806,d0299a77-7793-4a22-be8d-afbc64dd4a66,8,54,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-10-29,none,none,1
+SYN164909,568586c1-6357-48bb-bd1a-e198ec48d2a9,51,70,diabetes,vancomycin,1000,3,7,,2020-03-19,none,none,0
+SYN167949,a7868aab-968d-4043-94f4-3acc411d447a,21,70,hypertension,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN167982,51dd6398-cc1a-48da-afd7-8ef8579b0b89,22,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-14,none,none,1
+SYN168985,52b5b3eb-fb58-4a7f-8b70-b3b700be3009,107,70,prediabetes,doxycycline,100,2,7,,1974-09-08,none,none,1
+SYN169120,39cc1d78-a8f6-477e-8928-cd99ebd7682d,17,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-05-24,none,none,1
+SYN170409,1861fa5e-5168-4131-93c2-b19c54adc61f,40,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-12-24,none,none,1
+SYN170589,37e1e21f-1bee-4364-94bd-24bec405c0cb,88,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-09,none,none,0
+SYN170845,b8d9c48d-5f78-4777-8d28-5f11f135ca40,73,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-09-10,none,none,1
+SYN174017,bd34cd01-8109-4cf4-9893-56ce3f1ce897,20,70,acute_otitis_media,amoxicillin,500,3,7,,2007-10-07,none,none,1
+SYN174067,bcefd943-437d-4ef6-a3f7-6942a8bd7dc5,20,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-10-14,none,none,1
+SYN174176,5475def7-5a54-4f18-99b8-2d20a371a92c,96,70,miscarriage in first trimester,vancomycin,1000,3,7,87628006.0,2020-03-10,none,none,0
+SYN174931,f7303389-a93d-4853-957b-039277b36dea,103,70,hypertension,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN175293,db642999-c90b-42e1-81d6-831ed12df0a7,4,42,acute_sinusitis,amoxicillin,500,3,7,,2019-12-14,none,none,0
+SYN175457,ed15ea7d-d9e5-498e-803d-f983e79d886c,55,70,atopic dermatitis,penicillin,500,3,7,43878008.0,2003-04-11,none,none,1
+SYN176651,df07143a-3d09-4ecc-a7ee-09ba66ff59b3,99,70,hypertension,penicillin,500,3,7,43878008.0,2019-10-10,none,none,1
+SYN177188,1ddfa4da-dfa3-4e75-adbf-b7c819bad9f9,17,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-04,none,none,1
+SYN177720,cf11b11c-9d7b-4959-b476-58eb9dabb012,47,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2019-12-21,none,none,1
+SYN177828,5ae029df-38b6-4c75-8f68-bce72c906e59,14,70,child attention deficit disorder,penicillin,500,3,7,43878008.0,2019-09-14,none,none,1
+SYN178580,0143c325-d2e1-4c0c-abeb-9ec7726c309e,64,70,seizure disorder,vancomycin,1000,3,7,,2020-02-24,none,none,0
+SYN178949,d1514047-bfc5-45f4-8909-74ac138357b9,63,70,prediabetes,vancomycin,1000,3,7,87628006.0,2020-03-19,none,none,0
+SYN179006,12758c00-bd03-4882-9420-4b8c87eeb174,78,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-12-07,none,none,1
+SYN179010,12758c00-bd03-4882-9420-4b8c87eeb174,78,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN180532,e80677ad-b284-4c80-aa16-89f713ff80b8,24,70,seizure disorder,amoxicillin,500,3,7,,2000-08-20,none,none,1
+SYN181096,6d7a1efd-6205-49d6-95d1-ca0db8afbc8d,1,33,acute_otitis_media,amoxicillin,500,3,7,,2020-05-03,none,none,0
+SYN181532,aa9699da-e259-43cb-9970-95753d62ed9d,77,70,prediabetes,penicillin,500,3,7,43878008.0,2018-10-20,none,none,1
+SYN182433,468d5480-dcb0-467f-80d0-040e90c073ac,1,33,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-14,none,none,0
+SYN183156,5b1dafe5-deac-4e7a-bb14-d80a899eef27,41,70,common_cold,amoxicillin,500,3,7,,2020-04-29,none,none,0
+SYN183912,c0a13684-7a64-4488-9fc7-ea345a911551,92,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2005-08-18,none,none,1
+SYN184158,e5a3f36b-a64c-4532-97a6-ce222b88517c,97,70,seizure disorder,vancomycin,1000,3,7,87628006.0,2020-03-18,none,none,0
+SYN184563,e550d972-1d21-4ee5-a938-8ee9bcbf3434,28,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,2019-11-26,none,none,1
+SYN184852,1f75d2a1-9af7-40a6-8af5-760cc15d4a18,92,70,diabetes,penicillin,500,3,7,43878008.0,1995-04-13,none,none,1
+SYN185410,d400b110-44f8-4ff0-b56c-a12c0ed7910c,97,70,hypertension,amoxicillin,500,3,7,444814009.0,1993-05-23,none,none,1
+SYN188151,2e145526-5c40-434b-ac58-1e780a563599,84,70,hypertension,amoxicillin,500,3,7,444814009.0,2013-06-11,none,none,1
+SYN188256,cbac0349-9a52-4b97-9e7f-bb9072bb10a4,55,70,hypertension,vancomycin,1000,3,7,,2020-03-01,none,none,0
+SYN188562,e6e94d96-62f9-4fb5-b40b-78fb806e3731,51,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-07-05,none,none,1
+SYN188633,97c9bc58-24bb-4577-9156-08563aee37b1,27,70,appendicitis,amoxicillin,500,3,7,444814009.0,2019-09-13,none,none,1
+SYN190599,15cca20e-687c-466d-b4b8-014899837898,84,70,hypertension,penicillin,500,3,7,43878008.0,2015-09-25,none,none,1
+SYN190765,a7c125c3-6ddf-4f74-ba48-c4238908dc71,5,45,acute_otitis_media,amoxicillin,500,3,7,,2019-07-19,none,none,0
+SYN192659,a1c524d7-56c3-4b64-8b9b-0807b79be0d5,81,70,diabetes,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN193633,84314183-72ed-4c22-9a04-5e5b2e0794e2,11,63,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-12-21,none,none,0
+SYN193801,c78f5852-5ce3-408b-a355-cf04c0ca635b,81,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN194076,c63bf886-33bc-40b1-8a32-4078a6d1bdf6,14,70,seizure disorder,penicillin,500,3,7,43878008.0,2020-01-10,none,none,1
+SYN194257,c01142e4-23e9-49eb-bf79-2d784d2fa426,81,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2006-07-03,none,none,1
+SYN194734,316d94d0-b14f-4155-9d7d-640879d4e0c3,37,70,chronic intractable migraine without aura,penicillin,500,3,7,43878008.0,2019-11-07,none,none,1
+SYN195205,d05529c9-10fa-4c90-b7b6-97cfa83a953a,81,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN195604,8d12674f-47c2-46a0-8874-e803300a017f,5,45,acute_otitis_media,amoxicillin,500,3,7,,2020-01-17,none,none,0
+SYN195739,e4240e47-db82-434d-aaf1-c1c45fd4b67b,5,45,seizure disorder,amoxicillin,500,3,7,,2019-09-04,none,none,0
+SYN195943,67bafc25-a254-45e6-a200-99249ee0c33a,91,70,miscarriage in first trimester,amoxicillin,500,3,7,36971009.0,2015-01-03,none,none,1
+SYN197620,6472248d-700d-451c-a377-744ee5286ba0,6,48,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-07-27,none,none,1
+SYN197624,6472248d-700d-451c-a377-744ee5286ba0,6,48,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-10-08,none,none,1
+SYN199295,80ab3699-1559-44da-b2d4-dc4b7e0a1d0c,95,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,1964-01-09,none,none,1
+SYN199318,dcebc71a-1a1d-4241-9a04-155f7949d561,35,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-27,none,none,1
+SYN199401,413c2004-7393-4445-80a9-c34f618feae3,50,70,cardiac arrest,amoxicillin,500,3,7,,2019-07-21,none,none,1
+SYN199431,9847abba-1aca-40f1-9f34-8669e83fab5d,34,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-11,none,none,1
+SYN200050,a21c8828-e958-420e-8dcd-136b5f65df9b,6,48,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2019-10-09,none,none,0
+SYN200709,f59bb525-7cd5-4d99-8b2a-88db5ba6a525,98,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2019-06-08,none,none,1
+SYN200717,f59bb525-7cd5-4d99-8b2a-88db5ba6a525,98,70,seizure disorder,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN200781,07a03a97-a4bc-4136-9195-1d5b91f3eaa8,63,70,appendicitis,penicillin,500,3,7,43878008.0,2020-03-27,none,none,1
+SYN200847,4b0e55ae-71c1-479b-b5a6-e06cedcde007,48,70,hypertension,amoxicillin,500,3,7,75498004.0,2020-05-06,none,none,1
+SYN201018,4df9c1bf-dd42-4a51-919f-d754b21312d0,15,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-07-23,none,none,0
+SYN202001,654e7ab6-9f81-4ab4-8d21-db4c3fd73d24,53,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-01-10,none,none,1
+SYN203705,16e33958-b60c-4628-a65c-351085f1d39d,80,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-12-23,none,none,1
+SYN203712,8c9cbfec-6ced-4c29-b6f6-37452a7adc7c,85,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN203773,88a24dc1-88d0-478b-8173-3cd305a44268,43,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-01-10,none,none,1
+SYN204693,3221bffa-8008-4352-98dc-c8847d45c3d3,52,70,atopic dermatitis,penicillin,500,3,7,43878008.0,2019-08-29,none,none,1
+SYN204758,f6ba43a0-6fba-4015-bc35-dee00fb833c2,69,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-27,none,none,0
+SYN204933,e45cc862-2689-41da-b7bf-9d65182bafc8,54,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-08-31,none,none,1
+SYN205357,6fa5706b-4afa-45f7-a847-f030dbe0c141,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-06,none,none,0
+SYN205879,a33bffb1-8261-4ab3-8717-79896f471e1a,19,70,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2020-01-27,none,none,1
+SYN206099,3cafd65b-f243-473e-9ed9-6dde794e6220,67,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,1990-08-20,none,none,1
+SYN206322,6b23412a-6a67-44ce-b12a-aa39a4603f22,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-09-26,none,none,0
+SYN207720,c634b755-697f-4110-8b95-1a87d8acd7ee,94,70,miscarriage in first trimester,azithromycin,250,2,7,840539006.0,2020-02-26,none,none,0
+SYN207817,9043cde0-06f2-4f21-8807-178a96a15e26,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN208278,49db0211-48bb-4597-a202-58482b6bd61e,61,70,appendicitis,amoxicillin,500,3,7,444814009.0,2019-06-07,none,none,1
+SYN210030,5253a848-2ed4-40a6-ba21-e1487afa1998,42,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-04-20,none,none,1
+SYN210248,4cbf649d-a249-4cfc-94c7-f03f72e33c73,71,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,1992-10-15,none,none,1
+SYN210298,3696767b-f165-483b-8ac5-a735dca8765b,91,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-24,none,none,0
+SYN210650,41412771-bb79-4d0f-a076-ed9f302a320a,66,70,hypertension,amoxicillin,500,3,7,444814009.0,2007-09-02,none,none,1
+SYN210829,698e1d87-57bf-442a-ab44-df91ad329b8d,72,70,rupture of appendix,vancomycin,1000,3,7,87628006.0,2020-03-18,none,none,0
+SYN211226,338cc239-2220-4ca0-9ec2-2da58a043848,56,70,hypertension,vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN211518,ea68e771-211c-4e79-bfc8-fa2bb394d569,3,39,acute_otitis_media,amoxicillin,500,3,7,,2020-01-31,none,none,0
+SYN211725,62b57f64-eba3-42fa-b699-62ac7de6f986,72,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-09-07,none,none,1
+SYN211999,47b5e07c-1402-43d1-b392-278afa3fad62,20,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-12-18,none,none,1
+SYN212630,c777984b-af17-446b-a0aa-0898249fff09,72,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN212683,a44bb6a8-0399-4c40-978d-5f852d23ee97,105,70,seizure disorder,amoxicillin,500,3,7,444814009.0,1994-04-12,none,none,1
+SYN215314,359ea5fb-6e04-45a9-825b-23cc26ef691f,110,70,hypertension,vancomycin,1000,3,7,,2020-02-27,none,none,0
+SYN216034,fb5770a1-ec5e-447f-b5df-c5e161a2e787,57,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN216355,bffba509-f4ee-493b-a935-b05ef9159e8b,77,70,localized  primary osteoarthritis of the hand,amoxicillin,500,3,7,444814009.0,2019-09-10,none,none,1
+SYN218096,2606458d-2648-49aa-af43-594a26be575f,99,70,hypertension,vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN218103,110f1278-ee9c-4cf2-abd3-d76dc3b8561c,2,36,seizure disorder,amoxicillin,500,3,7,,2019-08-22,none,none,0
+SYN219906,13f9036c-a20e-42dd-b701-6517459d6727,5,45,acute_otitis_media,amoxicillin,500,3,7,,2019-09-01,none,none,0
+SYN221062,8dbc64ad-6aef-4e1b-99ee-dc48721d64bf,75,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,75498004.0,2005-08-29,none,none,1
+SYN221428,d05c46a9-245c-4d51-abd2-a5c90f719522,107,70,hypertension,penicillin,500,3,7,43878008.0,1985-10-10,none,none,1
+SYN221960,03109cac-6a73-4835-acf3-c396caa8cf05,37,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-07-13,none,none,1
+SYN223448,9babc5d0-eb58-46a0-8791-ec373cd4d807,29,70,appendicitis,amoxicillin,500,3,7,,2019-11-24,none,none,1
+SYN224637,33c324fb-f552-4c34-b3ec-181e7bf6c328,78,70,diabetes,vancomycin,1000,3,7,,2020-02-16,none,none,0
+SYN225957,c6f81302-5ab6-4fd3-ac88-21d9cea0d7c6,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-08-15,none,none,0
+SYN225959,c6f81302-5ab6-4fd3-ac88-21d9cea0d7c6,2,36,acute_otitis_media,amoxicillin,500,3,7,,2020-02-28,none,none,0
+SYN226801,b1631857-4503-45e8-930b-0c2e02f80fe7,34,70,acute_sinusitis,amoxicillin,500,3,7,,2020-03-13,none,none,1
+SYN226808,4d8b02bd-26fb-4118-b3a3-8988c89cb3d2,1,33,acute_otitis_media,amoxicillin,500,3,7,,2019-09-01,none,none,0
+SYN226810,4d8b02bd-26fb-4118-b3a3-8988c89cb3d2,1,33,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2019-11-09,none,none,0
+SYN226966,9f51f26a-4998-458b-a117-d99cb4b4c109,3,39,acute_otitis_media,penicillin,500,3,7,43878008.0,2019-07-09,none,none,0
+SYN227101,ca20210a-7f8a-495c-8845-b7de9a18eec3,9,57,coronary heart disease,penicillin,500,3,7,195662009.0,2019-09-13,none,none,1
+SYN227360,e4d510dd-601a-4eb0-9c68-d6e196a8af34,67,70,prediabetes,vancomycin,1000,3,7,87628006.0,2020-03-20,none,none,0
+SYN228318,97397fca-2aba-42d3-93af-ff9e4ccebec1,1,33,acute_otitis_media,amoxicillin,500,3,7,,2019-11-29,none,none,0
+SYN228399,d416fb11-fd33-4b15-903f-d078b1f45ba0,88,70,hypertension,vancomycin,1000,3,7,,2020-02-19,none,none,0
+SYN228733,9356a30b-f9fe-411a-8e26-4d0f9037aead,57,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-11-14,none,none,1
+SYN229013,75fb1f40-8807-4c9f-aad8-4ddaac0c5305,8,54,concussion with no loss of consciousness,penicillin,500,3,7,43878008.0,2019-08-30,none,none,1
+SYN229814,327f82ce-d022-42a0-b84a-bf4e2b212f14,76,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-19,none,none,0
+SYN230061,7529e40c-eb10-4ab3-8b30-c67b68f336b0,84,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2014-01-20,none,none,1
+SYN231185,74a44d1a-0a6a-4dd5-ad81-e27a6cf90d5e,52,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-09-09,none,none,1
+SYN235245,68944e53-a4dd-4770-bbc4-486cd9c49f87,76,70,common_cold,amoxicillin,500,3,7,444814009.0,2020-01-28,none,none,0
+SYN235524,3b7e3177-e8e6-4b50-bff6-273013338670,14,70,seizure disorder,amoxicillin,500,3,7,,2006-04-12,none,none,1
+SYN235532,c3616f42-010b-4771-8b60-c6d52f7cd3a3,62,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-24,none,none,1
+SYN235539,c3616f42-010b-4771-8b60-c6d52f7cd3a3,62,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-13,none,none,0
+SYN235547,dc582432-67cd-4f64-a526-a4a37cc1b924,30,70,chronic pain,penicillin,500,3,7,43878008.0,2020-03-18,none,none,1
+SYN235556,3e840638-fa30-49d6-a15c-bcfb1ec7821c,106,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN235618,bf6a7341-fbb9-4e07-99f3-e0e045e9bc4d,62,70,hypertension,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN235756,878a74c8-015a-44e4-bf32-7a473e126531,57,70,appendicitis,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN235844,dbd13a93-3f4c-4aad-8585-5e8af7fe436c,68,70,acute_sinusitis,vancomycin,1000,3,7,87628006.0,2020-03-23,none,none,0
+SYN238821,f65d1b85-a9b0-4b7a-85b8-6829e1b1b631,69,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-06-12,none,none,1
+SYN239267,4c1f5ba2-91ee-481c-a2f7-e620c74d9f6d,42,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-05-30,none,none,1
+SYN239271,1b255fb3-cdd6-4f99-b174-0ab6cd9cb012,17,70,child attention deficit disorder,amoxicillin,500,3,7,444814009.0,2020-04-24,none,none,1
+SYN239278,e94b8065-0ece-4cae-bf65-cce930eaebc3,45,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-07-09,none,none,0
+SYN239338,2f19f93f-2f61-4c89-aa6a-1f1aaa73ec44,17,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-01-17,none,none,1
+SYN240033,016861de-80d1-4e98-9266-62284b1a5952,102,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-02-06,none,none,1
+SYN240039,016861de-80d1-4e98-9266-62284b1a5952,102,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN240939,6956d6b4-b6ba-42c9-a6b6-baad3e2c37d3,79,70,prediabetes,vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN241308,d777f78c-5864-4acb-9d49-fb306b18d3bb,71,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-09-15,none,none,1
+SYN241477,c5c41aa1-d872-44da-8d89-9e9ae382864c,79,70,seizure disorder,amoxicillin,500,3,7,75498004.0,1982-03-02,none,none,1
+SYN242159,ea9c816b-6f24-4757-88e4-dc40844048ef,49,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-12-30,none,none,1
+SYN242403,bcaefc44-81cb-4e5e-8fed-1a6b68d7ac55,108,70,cardiac arrest,amoxicillin,500,3,7,444814009.0,2019-11-14,none,none,1
+SYN242874,fde7d6de-c332-43cf-b867-80a453945b05,53,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2019-12-30,none,none,1
+SYN245198,4ff7c961-d568-4a38-b522-37c10a2568f2,61,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-09-22,none,none,1
+SYN245285,7a40de6d-9419-426c-a7af-5fef3dd86bcc,82,70,hypertension,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN245330,e72ddda3-7231-4d76-b62d-88c83b1c3135,50,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-12-25,none,none,0
+SYN245331,b8f0687b-e5ff-4eda-892b-257291b0562c,36,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2020-02-20,none,none,1
+SYN245566,9e70e053-28c6-4839-a5d6-c2f84ca3dea8,33,70,appendicitis,penicillin,500,3,7,43878008.0,2019-06-03,none,none,1
+SYN246446,6cc92d72-3217-4434-9767-b9af253b59b1,53,70,acute_otitis_media,amoxicillin,500,3,7,,2019-07-09,none,none,1
+SYN247832,078257ef-531d-4b38-8937-6d532d50fadd,14,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-05-03,none,none,1
+SYN248365,55a28325-07af-4404-a025-e5592e368228,1,33,acute_otitis_media,amoxicillin,500,3,7,,2020-03-03,none,none,0
+SYN248907,e35772c4-fcda-4a23-8ec3-92aa7bec0ecc,37,70,impacted molars,amoxicillin,500,3,7,444814009.0,2019-06-02,none,none,1
+SYN250056,c164f472-6511-42c5-ae60-f9cebadfa01e,58,70,hypertension,azithromycin,250,2,7,840539006.0,2020-03-06,none,none,0
+SYN252035,d189cad1-7e81-4606-8c27-0347fbaea66b,64,70,miscarriage in first trimester,penicillin,500,3,7,43878008.0,2020-01-31,none,none,1
+SYN252390,0c9d02fe-3707-4bdc-b4c2-2743d6c54435,52,70,acute_otitis_media,doxycycline,100,2,7,,1968-11-29,none,none,0
+SYN253166,94609363-14cd-4a72-9ada-204ed677f88a,63,70,hypertension,penicillin,500,3,7,43878008.0,2019-09-08,none,none,1
+SYN253743,aea7d8a4-f902-4900-8a75-176e44455e4c,73,70,rupture of appendix,amoxicillin,500,3,7,444814009.0,2010-11-15,none,none,1
+SYN254105,97dc110b-ef51-42e5-8548-3a014915c72e,43,70,acute_sinusitis,azithromycin,250,2,7,840539006.0,2020-03-09,none,none,0
+SYN255397,f01ddda0-de5e-479a-89ec-11d4430f04b4,32,70,hypertension,penicillin,500,3,7,43878008.0,2019-09-12,none,none,1
+SYN255548,778d1b20-06e7-4f13-9538-16a3cd5c0e64,75,70,hypertension,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN258198,af28c579-637b-4057-9b6b-6f620c1efb5f,72,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-06,none,none,0
+SYN258431,23e6d032-8ca6-4328-8e0b-9be120a06a87,28,70,impacted molars,amoxicillin,500,3,7,444814009.0,2019-10-10,none,none,1
+SYN258466,b1a5d8db-6bb4-402c-87dd-21428323e83d,15,70,common_cold,amoxicillin,500,3,7,,2019-05-27,none,none,0
+SYN258614,5ac7adb8-9b62-4479-8388-a78629598804,35,70,chronic pain,amoxicillin,500,3,7,444814009.0,2020-02-10,none,none,1
+SYN259061,d7a9a2a1-2c63-4032-9bd3-ee63dbb15b6f,46,70,common_cold,amoxicillin,500,3,7,444814009.0,2020-02-11,none,none,0
+SYN260178,19a68195-4c9a-4792-87ea-5c2679b1eb64,96,70,hypertension,amoxicillin,500,3,7,444814009.0,1992-01-03,none,none,1
+SYN260286,25d3da13-b95e-4c89-ae6d-1956cc6b1952,20,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-09,none,none,1
+SYN260349,c15abc5e-742b-48a0-bac0-0132127fab15,55,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-02-03,none,none,1
+SYN260933,1b377ed0-c789-4d10-9cbe-91ef76f63be7,5,45,sprain of ankle,penicillin,500,3,7,43878008.0,2019-12-06,none,none,1
+SYN261132,38bf1b8c-3d81-4e73-9741-a9511d64a8ad,80,70,prediabetes,penicillin,500,3,7,43878008.0,2019-07-04,none,none,1
+SYN261508,001890f9-3149-4347-ad12-739ad6db59cd,16,70,childhood asthma,amoxicillin,500,3,7,444814009.0,2019-09-26,none,none,1
+SYN261587,da559b51-61a9-4cd6-8200-edec09338961,18,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-08-06,none,none,1
+SYN262016,03555191-6034-4e3c-a275-51f389f136de,106,70,hypertension,vancomycin,1000,3,7,,2020-02-22,none,none,0
+SYN262275,52c9c643-d4f0-4536-838a-2fd780cd4942,64,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN263209,e8059291-10bc-4ab5-b881-8a43e36160f7,26,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-22,none,none,1
+SYN263562,becc09a8-6b88-4c68-bc2f-f1cd0bdd622e,70,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN263863,a7e558e3-d76d-44b3-a22f-fbb1e9cc74ab,87,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,36971009.0,1996-01-28,none,none,1
+SYN264145,b478443c-8d8c-48d4-a24f-34c75c97728f,36,70,chronic intractable migraine without aura,amoxicillin,500,3,7,444814009.0,2019-09-04,none,none,1
+SYN264190,8fcf735c-0cbd-4ed6-a039-6aaeda718e69,57,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-05-10,none,none,1
+SYN264305,60d15986-f2fb-4617-b905-e7ece77b9633,25,70,normal pregnancy,amoxicillin,500,3,7,444814009.0,2020-01-30,none,none,1
+SYN264316,0ab04cd8-f033-4b7b-b342-d66a09118422,6,48,acute_sinusitis,amoxicillin,500,3,7,,2019-12-30,none,none,0
+SYN264339,317db1e7-fea7-4d8e-bb82-ea69a4ded033,48,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,36971009.0,2020-01-15,none,none,1
+SYN265726,2ea003cb-5626-429b-af6e-477800509d23,40,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-21,none,none,0
+SYN266020,1e835de5-9fe2-4eeb-8669-d4718bd3e5a1,4,42,atopic dermatitis,amoxicillin,500,3,7,,2019-06-02,none,none,0
+SYN266022,1e835de5-9fe2-4eeb-8669-d4718bd3e5a1,4,42,atopic dermatitis,penicillin,500,3,7,43878008.0,2020-02-29,none,none,1
+SYN267318,6c55978d-65a6-4b5a-af36-267b58f19585,6,48,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-08-08,none,none,0
+SYN267610,f67fe918-1271-4254-8a6f-1333cb822d9c,60,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,,2019-10-17,none,none,1
+SYN267646,5aa8747c-1e49-48b1-9233-459b1940c635,38,70,chronic pain,amoxicillin,500,3,7,444814009.0,2019-12-05,none,none,1
+SYN267720,7d9e3792-e2b3-4123-9dd1-f8bc748675f1,33,70,seizure disorder,amoxicillin,500,3,7,,1988-09-24,none,none,1
+SYN267955,fd8d489e-a683-4eb7-955b-4c9c4d2ffab5,59,70,common_cold,penicillin,500,3,7,43878008.0,2020-05-11,none,none,0
+SYN268980,1209eaa5-a286-4c7a-8626-1c0d374c5e61,105,70,hypertension,amoxicillin,500,3,7,444814009.0,1987-07-21,none,none,1
+SYN269417,cb937ef4-53e8-4b0d-9827-61529de6424e,14,70,cough (finding),amoxicillin,500,3,7,,2020-03-28,none,none,1
+SYN269759,f0c19856-e573-4d75-9f8d-d3219aa0008a,60,70,prediabetes,amoxicillin,500,3,7,444814009.0,2020-03-27,none,none,1
+SYN269979,82555cc1-870c-42e8-a8b6-f545c9be4ab0,14,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-03-19,none,none,1
+SYN270294,acfb9e76-5282-46a8-82f5-5a7a790b94e9,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-12-04,none,none,0
+SYN270648,3ca3a35d-33e8-47a2-9711-bb5fed3b319c,72,70,prediabetes,amoxicillin,500,3,7,444814009.0,2012-06-03,none,none,1
+SYN270832,df7d24d9-4ca8-405a-8cd2-fadc04359a36,54,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-12-12,none,none,1
+SYN271033,e299c990-f71f-49a5-946c-fe94ad50e4ea,72,70,hypertension,vancomycin,1000,3,7,,2020-03-24,none,none,0
+SYN272746,d83549a2-74ed-42fd-b6c1-1d700da09407,18,70,childhood asthma,amoxicillin,500,3,7,444814009.0,2020-05-09,none,none,1
+SYN275318,9eb75c61-8e6b-436a-a938-8aa2f9313bc1,98,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,1994-06-16,none,none,1
+SYN275465,495035f8-c383-4984-a391-ee7878cffe96,70,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-11,none,none,0
+SYN278290,4409a918-9e03-4171-affe-e844610c0dea,62,70,hypertension,amoxicillin,500,3,7,,2017-02-01,none,none,1
+SYN279204,2e8a514d-944e-4fb6-92b1-5de378ab32bb,6,48,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2020-05-20,none,none,0
+SYN280039,c3393d59-82e8-4233-a4e1-6c9694fb3af9,56,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-07-11,none,none,1
+SYN280076,6ed75f08-a2ab-494f-acea-6e273a0c372e,16,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-07-20,none,none,0
+SYN281085,06299c24-82fc-426b-8617-99ec8d024e61,72,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-10-25,none,none,1
+SYN281183,9acf0f29-2d74-4900-af68-0b8c59c8df21,75,70,prediabetes,vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN281308,79e1f885-56ed-41db-907f-97198dd08519,77,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN281499,0f0bc78d-4a87-4a01-8234-f57d7b9802d3,82,70,appendicitis,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN281550,47d5b606-81f9-4f9f-8d13-adc66451cbc1,33,70,diabetes,amoxicillin,500,3,7,444814009.0,2019-07-22,none,none,1
+SYN283203,c309ace0-a20a-4e2d-9f28-f58ae1b0b4f0,51,70,miscarriage in first trimester,amoxicillin,500,3,7,,2019-05-30,none,none,1
+SYN283865,e654fc90-e542-4c42-b502-67319d721486,60,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2007-07-24,none,none,1
+SYN284351,e0a3e10c-184b-4de9-a4da-8d622d0e9b8f,63,70,hypertension,amoxicillin,500,3,7,36971009.0,2019-11-21,none,none,1
+SYN286859,8dd62e46-aeae-4048-b117-10a27bcdcfcf,14,70,brain damage - traumatic,penicillin,500,3,7,43878008.0,2019-08-16,none,none,1
+SYN287350,01ade8cd-1b46-4bad-987e-6c77496d5ebe,57,70,cardiac arrest,amoxicillin,500,3,7,444814009.0,2020-01-26,none,none,1
+SYN287355,7b8b044e-b32f-4fa9-9c3e-357a025e4a98,85,70,prediabetes,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN287422,d29b6805-b1ec-4a62-89d9-22613fc41396,49,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-07-15,none,none,1
+SYN287657,3b1b5fff-ba2e-4f03-b34d-cb4e8892b761,3,39,acute_otitis_media,amoxicillin,500,3,7,,2020-04-04,none,none,0
+SYN287665,6ee3d39b-9e44-4d69-b575-ad4ce46e6fbc,14,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-25,none,none,0
+SYN288968,f3a6ee3c-1509-4ed0-aa61-cce8f0d24e18,95,70,alcoholism,amoxicillin,500,3,7,444814009.0,2003-07-08,none,none,1
+SYN289020,f2c0f9c5-2c5e-4236-9483-626d14c0c37e,14,70,atopic dermatitis,penicillin,500,3,7,43878008.0,2019-12-22,none,none,1
+SYN289450,af4bea85-6711-4d58-be5e-0be006b993a4,1,33,acute_otitis_media,amoxicillin,500,3,7,,2020-03-08,none,none,0
+SYN289743,c507c374-ed7d-4d3c-af2a-e56d288de80e,33,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-31,none,none,0
+SYN289912,810d4446-25b4-450f-b8ea-e342742d4de1,32,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,36971009.0,2020-01-17,none,none,1
+SYN290258,5ac206b3-05a5-41d2-b86b-693b83a8d3c8,7,51,acute_bronchitis,amoxicillin,500,3,7,444814009.0,2020-01-08,none,none,0
+SYN291119,eb73ccf0-c7c2-4a0e-9a7f-31ce409003c8,40,70,hypertension,penicillin,500,3,7,43878008.0,2020-02-03,none,none,1
+SYN291383,22245990-13a3-4bb7-aa40-6f2abe91c030,108,70,seizure disorder,penicillin,500,3,7,43878008.0,1921-12-16,none,none,1
+SYN291976,ed06aa7e-46c0-4251-8571-3df6a897b6e5,32,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-05-26,none,none,1
+SYN292543,5058456e-44ac-481e-8d20-150c7a8f9bd0,52,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-01-27,none,none,1
+SYN293167,1db46b1e-232e-4432-8b13-427e088d5bf4,77,70,hypertension,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN293841,53c9073f-38fe-4cf0-9c7a-27de0f54e5a8,69,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-09-30,none,none,0
+SYN294026,7cdc68aa-6f77-4221-889b-c2ca0d319aaa,59,70,major depression disorder,amoxicillin,500,3,7,444814009.0,2020-01-26,none,none,1
+SYN294178,fbd4169e-efa8-4716-966f-9fd1d096c32a,77,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-07-31,none,none,1
+SYN294249,68308057-34b1-49f2-8f40-7e2fd7dfa05e,17,70,atopic dermatitis,amoxicillin,500,3,7,444814009.0,2020-04-26,none,none,1
+SYN295132,aee7db3a-851c-43bd-a3df-7ffca346c81a,5,45,atopic dermatitis,amoxicillin,500,3,7,,2020-04-30,none,none,0
+SYN295358,56763610-ac55-4b48-b964-f0036ccf4fa1,48,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-11-23,none,none,1
+SYN295679,7828b46e-9e00-4bf1-b90b-e634687af3c7,24,70,acute_otitis_media,amoxicillin,500,3,7,,1997-05-12,none,none,1
+SYN296087,43e6c279-fb9c-43fd-851c-4f7562110ca5,26,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-29,none,none,1
+SYN296138,b73dd2ae-e087-4927-9846-0ca88cca744a,33,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-07-16,none,none,1
+SYN296176,e46d1779-fea1-45b8-a896-98228044d8b6,51,70,hypertension,amoxicillin,500,3,7,,2019-12-15,none,none,1
+SYN296586,e3dec008-b36d-4626-b7c5-23f2cd0c2d0e,93,70,acute_sinusitis,vancomycin,1000,3,7,87628006.0,2020-03-10,none,none,0
+SYN296890,4e41a63c-89fa-4431-9e27-fc757ea917ee,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-11-25,none,none,0
+SYN297062,6c9b8513-14ef-4cbf-a4bc-3d22798d70d3,1,33,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-06-17,none,none,0
+SYN297225,f6fce8af-2b55-4aa3-b6db-6d03cc6def12,93,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-06-12,none,none,1
+SYN297662,044239ea-335c-411a-b78c-392614543bbe,4,42,acute_otitis_media,amoxicillin,500,3,7,,2020-03-24,none,none,0
+SYN297670,db297901-f86a-4a18-858b-543f5e435e9b,16,70,atopic dermatitis,vancomycin,1000,3,7,87628006.0,2020-03-13,none,none,0
+SYN297900,02d33b53-1387-4980-8217-2bf6cf05e520,83,70,hypertension,vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN298321,7e5848bf-9de5-4b85-ac85-0b1d818ed6f8,42,70,seizure disorder,amoxicillin,500,3,7,444814009.0,2020-01-28,none,none,1
+SYN300833,b7e10f32-477b-4a19-b6e4-5dca83d86574,100,70,diabetes,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN301369,f6bec767-b42a-451c-9427-343bc1b53675,107,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-11-20,none,none,1
+SYN301405,23f658eb-d9cf-4fda-b758-0e3355434e0d,73,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-08,none,none,1
+SYN303370,87398695-2747-48ad-b22b-98eec8e1e505,61,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-12-12,none,none,1
+SYN303536,5f16cbde-0ecb-452e-8636-c734bd0cafea,19,70,acute_sinusitis,amoxicillin,500,3,7,75498004.0,2019-06-14,none,none,1
+SYN304177,d605c201-630f-4b3b-a7fa-d45ac3266c6b,60,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-06,none,none,0
+SYN304406,cb006862-fc49-4a35-80cf-1a2287eda8ec,79,70,prediabetes,amoxicillin,500,3,7,444814009.0,2020-03-31,none,none,1
+SYN305741,eaef3d1b-a00e-46fd-b30c-f0790331a21c,85,70,diabetes,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN305796,31ec3f4d-14b9-486d-a5d1-1087ab492349,5,45,sputum finding (finding),amoxicillin,500,3,7,,2020-03-16,none,none,0
+SYN306185,e620ab58-5999-4a1e-bce1-0d85612b1fc3,8,54,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-03-04,none,none,0
+SYN306320,2871e77a-f3ed-4903-9c01-440e6dfe0d41,56,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-05-15,none,none,1
+SYN306343,84c61a3d-8160-4e2e-a2a8-a167981c8fa4,59,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-10-14,none,none,0
+SYN306624,0fde6ac0-3fc5-4e18-bb45-dbea3506cfab,38,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-18,none,none,1
+SYN307147,f4bf3fad-24a3-4a9e-b9fa-d1ac8e19374a,6,48,acute_otitis_media,amoxicillin,500,3,7,,2019-06-13,none,none,0
+SYN307422,e32741c6-7586-4c41-a8ad-82cf4b3e6bd0,11,63,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-12-09,none,none,0
+SYN308419,107536eb-9540-4c6e-bf96-d56fcd9a67cd,73,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN308767,90b02c5b-f729-4f84-9b67-01d9ad301d39,38,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-08-22,none,none,0
+SYN309014,18402e0a-68cd-4416-99d5-9afe8bfc41ed,65,70,diabetes,vancomycin,1000,3,7,,2020-03-05,none,none,0
+SYN309050,a8ccf97c-a50c-44ac-8920-219121d41a35,47,70,hypertension,penicillin,500,3,7,43878008.0,2020-01-22,none,none,1
+SYN310029,22d0d9d9-03fb-49b4-bf59-3306375da154,6,48,acute_otitis_media,amoxicillin,500,3,7,,2019-11-24,none,none,0
+SYN310031,22d0d9d9-03fb-49b4-bf59-3306375da154,6,48,acute_otitis_media,penicillin,500,3,7,43878008.0,2020-01-12,none,none,0
+SYN310372,f1a25d0f-4935-454e-b7ba-08ab67b83c13,76,70,acute_bronchitis,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN310935,e002a705-2d73-43f9-98d6-337ae19f5787,76,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN311624,c35b20eb-4bbf-43a3-9e68-cea57fe4d9bf,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-06-24,none,none,0
+SYN312297,78d00a9b-cdd3-4bd1-a143-7f52419a0661,77,70,hypertension,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN312443,becd6ba1-f462-4fed-881c-1dde1b3a0f06,65,70,prediabetes,penicillin,500,3,7,43878008.0,2020-03-04,none,none,1
+SYN312926,a4d4d3ea-743b-44f6-9a81-f5c38a5b015f,64,70,smokes tobacco daily,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN314017,8571fce5-2ae5-4fbd-b683-2352f098345e,33,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-04-04,none,none,1
+SYN315050,42a9ceef-9ec5-4d7d-a2a2-08a8882b0967,66,70,prediabetes,vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN315753,a4a1a124-492f-45e9-99de-59445d5846a1,4,42,acute_otitis_media,amoxicillin,500,3,7,444814009.0,2020-04-14,none,none,0
+SYN316677,0cdbb00b-e20a-483d-98d3-9db99238a807,8,54,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-04,none,none,0
+SYN316680,0cfda443-54da-4cc1-8e9b-bd1d9355bf62,79,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1969-03-27,none,none,1
+SYN316681,0cfda443-54da-4cc1-8e9b-bd1d9355bf62,79,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1985-10-14,none,none,1
+SYN316682,0cfda443-54da-4cc1-8e9b-bd1d9355bf62,79,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1993-01-31,none,none,1
+SYN316697,0cfda443-54da-4cc1-8e9b-bd1d9355bf62,79,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-20,none,none,1
+SYN317968,8dafa1bb-2e41-4d5c-a138-98ab4689d318,82,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-07,none,none,0
+SYN318363,b7555c91-362b-4ac0-ac2c-a8ec357ca8f0,36,70,normal pregnancy,amoxicillin,500,3,7,444814009.0,2020-01-23,none,none,1
+SYN318733,9404af9a-be6f-499f-8c48-98ef2d700cbe,25,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-25,none,none,1
+SYN318767,a7d0adba-f715-4f72-b7e6-0e5fadbe9e1c,75,70,prediabetes,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN318832,aa37226f-050e-45b6-a35d-e5474af80cec,49,70,miscarriage in first trimester,amoxicillin,500,3,7,,2019-08-23,none,none,1
+SYN319023,dbf1d5b7-360d-4e2b-abb5-91e364c13e56,44,70,prediabetes,amoxicillin,500,3,7,75498004.0,2020-04-20,none,none,1
+SYN319164,3763295e-e084-4203-8c41-e9a1e00ea26a,75,70,malignant neoplasm of breast (disorder),amoxicillin,500,3,7,444814009.0,2019-12-19,none,none,1
+SYN320322,4645e804-a17c-4273-8902-25f0bf89d1be,10,60,atopic dermatitis,penicillin,500,3,7,43878008.0,2020-03-27,none,none,1
+SYN320444,ec90b7d0-0091-4c1d-98ab-f28cba57cb55,24,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-16,none,none,1
+SYN320727,fd4b5b71-73a9-4119-9edc-0ad076eeb999,55,70,acute_sinusitis,vancomycin,1000,3,7,87628006.0,2020-03-21,none,none,0
+SYN321011,4ae627d0-c6a5-468d-ac2b-64ee1ae8519e,59,70,common_cold,amoxicillin,500,3,7,444814009.0,2020-01-19,none,none,0
+SYN321617,3a15b508-9fa8-4eff-839c-805cb44f4c9a,85,70,localized  primary osteoarthritis of the hand,vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN322557,d28846bc-424a-4b78-a38d-961f7ae416c1,85,70,seizure disorder,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN323723,34356a5f-7812-4c3f-9542-a97dbfb5839d,30,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,2019-10-28,none,none,1
+SYN325291,a457c1f3-1fa0-4603-9488-303943b2d8c8,87,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN325641,827658d0-0512-47c4-b9e9-021a41625394,5,45,headache (finding),amoxicillin,500,3,7,444814009.0,2020-02-26,none,none,0
+SYN325791,b12b675f-4ca7-40ca-8185-42cb421084cc,68,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-11-26,none,none,1
+SYN325795,1a3f95ea-feb5-4302-8ce4-249c592c2064,11,63,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-09,none,none,1
+SYN326100,72efe233-6f87-4c9b-ae49-af1e1c8b5fd4,86,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-11,none,none,0
+SYN326146,51405d34-713a-43e1-a88f-d449e74ccc99,53,70,seizure disorder,penicillin,500,3,7,,1969-12-09,none,none,1
+SYN326193,18537c80-34fc-4171-ab0e-1fdb16ccb0ff,110,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN326521,36219f3e-c175-48ab-84e4-897074075d38,9,57,acute_sinusitis,amoxicillin,500,3,7,75498004.0,2019-12-08,none,none,1
+SYN327197,025d27ff-c398-4a50-9d09-a25ca48b803d,64,70,hyperlipidemia,vancomycin,1000,3,7,,2020-02-29,none,none,0
+SYN327852,50ad7c9d-76f5-439a-953b-e7e2937b5486,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-11-03,none,none,0
+SYN328575,6f10a6d1-f0f6-4825-afa7-ae2a599b181d,48,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-13,none,none,0
+SYN328642,80f73a80-20a5-4ddb-9f0b-9198863456b9,27,70,cough (finding),azithromycin,250,2,7,840539006.0,2020-03-13,none,none,0
+SYN328729,96726555-e6df-49f9-ba30-bf77eac8ce3b,4,42,acute_otitis_media,amoxicillin,500,3,7,,2019-06-06,none,none,0
+SYN330656,ca102114-787a-42b8-aeb8-8ceb847f9da4,73,70,cardiac arrest,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN332468,c32e8467-16f6-4fe6-baf3-e7e5e995678a,62,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-02-23,none,none,1
+SYN333381,c90b8143-df46-43da-9271-d9d8794eaa6b,48,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-09-29,none,none,1
+SYN333902,ecbf5d1b-fc3d-4358-a06a-b359ccb7e358,83,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-23,none,none,0
+SYN334159,1b525c8d-e3e7-48c0-bf12-209adf8389c2,52,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-11-24,none,none,1
+SYN334436,dc050ddd-dc4e-4d55-ac62-0e34388142eb,33,70,acute_sinusitis,amoxicillin,500,3,7,75498004.0,2020-01-26,none,none,1
+SYN335193,207071f9-8af9-47c5-9786-f405614eb2ff,43,70,prediabetes,penicillin,500,3,7,43878008.0,2019-12-10,none,none,1
+SYN335195,58252da2-61ce-42f9-a1e7-88f0825c3e06,15,70,acute_sinusitis,penicillin,500,3,7,195662009.0,2020-03-25,none,none,1
+SYN335598,10b3e6a4-40b1-4ef0-b60f-54148f9eb8d5,71,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-06-25,none,none,1
+SYN335637,101bc01a-bac1-43e4-b811-00b207b19a2b,58,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-08-26,none,none,1
+SYN335714,a7236bbf-fb9c-4333-9bb0-e89f841e531e,42,70,miscarriage in first trimester,penicillin,500,3,7,43878008.0,2019-06-16,none,none,1
+SYN335715,1fe611de-45f4-4455-8916-93ca9de69d70,1,33,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-08-24,none,none,0
+SYN335719,1e824ac2-6556-4e09-bbb4-f4116b8f6781,7,51,appendicitis,penicillin,500,3,7,43878008.0,2020-02-17,none,none,1
+SYN335753,88f34af2-242b-4931-aaa0-13e18b74cdf4,105,70,common_cold,penicillin,500,3,7,43878008.0,1980-01-01,none,none,0
+SYN336484,6ea85238-44ca-4c16-b2f0-991dad36936f,33,70,prediabetes,amoxicillin,500,3,7,444814009.0,2020-04-24,none,none,1
+SYN336485,f17adf50-3ed0-47f4-bb48-cd5bfa5945ac,79,70,miscarriage in first trimester,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN337270,83b1d370-0cec-4a01-b549-f58de6d79961,4,42,acute_otitis_media,amoxicillin,500,3,7,,2019-12-29,none,none,0
+SYN337272,83b1d370-0cec-4a01-b549-f58de6d79961,4,42,acute_otitis_media,penicillin,500,3,7,43878008.0,2020-04-13,none,none,0
+SYN337475,0bd14e3b-7aea-41f5-8f1d-19114b14ed2d,64,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-02-25,none,none,1
+SYN338638,a78cbe4f-2936-4301-8f13-c77f090f5d7a,13,70,cough (finding),amoxicillin,500,3,7,444814009.0,2020-04-09,none,none,1
+SYN338829,8bd84a95-4b6c-4a40-81bb-1284e87ca76e,24,70,acute_otitis_media,amoxicillin,500,3,7,,2020-04-18,none,none,1
+SYN339133,0fc2e423-5ef4-4797-be26-a6f7f11a87ce,85,70,seizure disorder,vancomycin,1000,3,7,,2020-03-10,none,none,0
+SYN339404,5a63e899-e02a-4092-b421-627d25cd45f8,48,70,atopic dermatitis,amoxicillin,500,3,7,444814009.0,2019-12-27,none,none,1
+SYN339617,02fba6f1-888b-4e83-ba28-769bc7e4d0a1,1,33,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-30,none,none,0
+SYN340114,732e4fb9-dcaa-43d5-9200-efaddf1687aa,40,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-05,none,none,1
+SYN341122,78c9405e-d331-44cf-a00b-89bad07c930f,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-07-12,none,none,0
+SYN342359,247b8bd6-3c9c-4bce-870e-59cc9a05282c,105,70,seizure disorder,amoxicillin,500,3,7,444814009.0,1919-05-10,none,none,1
+SYN343071,bb090abb-dd47-4c79-946d-dd7fbd8fc897,77,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-02-06,none,none,1
+SYN343074,0e713a75-7c7d-4f4d-a8b4-e13c3fd2d786,67,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN343171,50d79284-1cc2-48c0-a449-ac239f25f277,88,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN344089,e2eb0f51-b19e-4d34-896b-91891906bbe2,88,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2019-11-17,none,none,1
+SYN345170,1d5f034b-9a1a-422b-affc-306e2aee9964,108,70,acute_bronchitis,amoxicillin,500,3,7,444814009.0,1987-12-25,none,none,0
+SYN345217,aaef17d9-93e7-49fb-b610-0c4bbed20a80,30,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-12-20,none,none,1
+SYN345774,d28534e8-9913-4958-8251-b2d3258d240d,56,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-02-28,none,none,0
+SYN345998,e9a6a457-cd04-41aa-8664-535d22368dd0,32,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-18,none,none,1
+SYN346799,656be3bc-c511-495c-8aac-5281638290e3,58,70,coronary heart disease,amoxicillin,500,3,7,,2019-11-22,none,none,1
+SYN347137,a647dabc-935d-4c9b-b46a-f3c07fafa3ab,12,70,acute_sinusitis,amoxicillin,500,3,7,,2020-04-13,none,none,1
+SYN347968,a783b952-5fc4-4afc-ac3e-7477d9d4cf44,80,70,prediabetes,penicillin,500,3,7,43878008.0,2008-11-14,none,none,1
+SYN348609,fb1e9393-1108-48fa-bbd5-8dc089f7158f,22,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-12-04,none,none,1
+SYN348882,72c06ebb-ccc8-430c-865d-55f890ddcdd0,15,70,atopic dermatitis,penicillin,500,3,7,43878008.0,2019-09-13,none,none,1
+SYN349237,f0788873-b24f-4dd9-9c54-d09de8f2fcff,26,70,coronary heart disease,amoxicillin,500,3,7,444814009.0,2020-04-21,none,none,1
+SYN349506,ae036461-7618-4efe-a661-d00e153cad32,17,70,miscarriage in first trimester,amoxicillin,500,3,7,36971009.0,2020-01-12,none,none,1
+SYN349509,43020343-3218-4fda-bc34-47c0a19c9d44,40,70,impacted molars,amoxicillin,500,3,7,,2020-03-28,none,none,1
+SYN350318,4904c567-9aac-482c-a034-eb4d9e4354d7,4,42,acute_otitis_media,amoxicillin,500,3,7,,2020-05-08,none,none,0
+SYN352526,0fcb7da4-d8fa-4317-9fd6-5542371990da,2,36,acute_otitis_media,amoxicillin,500,3,7,,2019-11-28,none,none,0
+SYN352854,9dead8ee-3e70-4326-8867-3a3b81ca5e07,42,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-01-17,none,none,1
+SYN353203,6ac7d2cb-d2a5-468e-b120-c8de834f69ea,107,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-18,none,none,0
+SYN353511,559f49d6-2f7d-4f53-a780-879e189c76dd,104,70,hypertension,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN353942,fbc8b6ee-2717-4825-ba51-59ba51e4bb4c,39,70,hypertension,amoxicillin,500,3,7,,2020-05-24,none,none,1
+SYN354516,66deabbc-a838-45e3-b0b1-9be191c8ab85,28,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-19,none,none,1
+SYN354616,e3f39ddb-344c-47ec-a904-8d7af29f4170,83,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2003-03-07,none,none,1
+SYN354757,bebd9da6-89b7-4445-9b6b-594f98da160d,46,70,miscarriage in first trimester,amoxicillin,500,3,7,,2020-04-11,none,none,1
+SYN354969,e57c1cb7-9102-4782-86ab-78278ad9bd82,7,51,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-11-04,none,none,0
+SYN355073,a25fea9d-4b23-4908-93b2-c82fa6e3dff4,83,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2012-05-11,none,none,1
+SYN355185,a2eee486-decf-405c-b439-3faf1b5b8c4a,60,70,common_cold,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN355456,5542273f-e68a-4d00-953b-b9b682e88f06,11,63,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-06-02,none,none,1
+SYN355700,6e9cd5dc-cd7a-42e7-aa5c-add8b6328dfc,12,70,acute_otitis_media,amoxicillin,500,3,7,,2019-11-15,none,none,1
+SYN355865,89be43c4-4e91-4582-9a00-01c3f8510137,17,70,common_cold,amoxicillin,500,3,7,444814009.0,2020-01-09,none,none,0
+SYN356227,879e37f9-222b-4a20-a95f-77dba9403ec1,83,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-22,none,none,0
+SYN356577,35956340-6195-489d-83f7-06950fecea15,71,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1959-03-16,none,none,1
+SYN357090,9f0c1950-ffa6-485f-b238-03143c55298e,5,45,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-08-03,none,none,0
+SYN358894,5a45fbb5-a0cb-4c4a-a268-76fd57b93f69,63,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN362912,2234bec5-a914-4b3e-8172-f1b7832d1fb1,97,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN364173,0de81fea-771d-431b-b431-65ef68b9c4a9,71,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN364329,fd58f3e7-879d-4fba-933f-998580e29be6,105,70,pulmonary emphysema (disorder),amoxicillin,500,3,7,444814009.0,1987-03-05,none,none,1
+SYN364491,ee335cd9-6dd4-43e7-86a9-9f229cb30bed,105,70,traumatic brain injury (disorder),amoxicillin,500,3,7,444814009.0,1979-04-12,none,none,1
+SYN364614,f302f303-9acc-4379-b386-b204ec419cdf,70,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2020-03-30,none,none,1
+SYN366766,cbb28737-b96a-40e8-b128-453a2ed6a638,106,70,malignant neoplasm of breast (disorder),vancomycin,1000,3,7,,2020-03-26,none,none,0
+SYN367421,f4d4ed20-7162-4dd6-8d80-fcd8c94f6612,6,48,acute_otitis_media,amoxicillin,500,3,7,,2019-06-18,none,none,0
+SYN368385,ee7298f6-a229-4492-9184-64a5d3f62089,66,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN368857,f2cff23a-8d7b-4d35-a4ac-5791c4730ef1,77,70,prediabetes,amoxicillin,500,3,7,444814009.0,2020-03-19,none,none,1
+SYN369089,d5581710-3ab6-4858-a4b2-613593aea1bb,95,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,1990-06-10,none,none,1
+SYN369454,19653ea4-11f4-48ec-8b47-f37c24dad3b0,46,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-08-23,none,none,1
+SYN371349,1da6dca1-1190-468a-831f-abe02c6d2059,23,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-04-20,none,none,1
+SYN371350,32b40100-5461-41c8-8221-8addc8d97b37,51,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-08-02,none,none,1
+SYN371416,fc85cddf-cca2-41c9-a427-974c3e489e88,83,70,hypertension,amoxicillin,500,3,7,444814009.0,2004-11-02,none,none,1
+SYN371821,ee09bba6-5f41-4c6c-9c40-ede30270f693,34,70,chronic intractable migraine without aura,amoxicillin,500,3,7,444814009.0,2019-07-23,none,none,1
+SYN374259,5208578c-9df0-47a0-b4d3-c789c842f77f,45,70,miscarriage in first trimester,amoxicillin,500,3,7,444814009.0,2019-11-18,none,none,1
+SYN374819,fbd79dcc-5836-4766-ba9f-bff567bf1974,28,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-01-10,none,none,1
+SYN375647,71d15dd1-0e8e-4901-b9d1-c9de545df14f,74,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-08-20,none,none,1
+SYN376803,b3226e67-cfac-4a8e-a044-daf3697e7a3a,72,70,hypertension,amoxicillin,500,3,7,444814009.0,2014-04-16,none,none,1
+SYN377063,be086702-961c-4862-849b-149189d5940a,63,70,hypertension,penicillin,500,3,7,43878008.0,2020-01-14,none,none,1
+SYN377368,88499c86-11b1-4934-9c82-a140524a88b8,72,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-19,none,none,0
+SYN377582,901cc5b9-660e-4077-bc1f-9b87bc289038,21,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-02-12,none,none,1
+SYN378218,f0a1839c-1b5b-4ac3-b88b-75783517d38c,22,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-02-24,none,none,1
+SYN379485,c7236fc6-2c8e-4235-a581-6108d371c89d,67,70,prediabetes,vancomycin,1000,3,7,,2020-03-14,none,none,0
+SYN380078,b49fc5ae-b597-446e-adac-7187a7996ee7,58,70,hypertension,amoxicillin,500,3,7,444814009.0,2019-09-18,none,none,1
+SYN381644,3e5af47c-897c-4ed0-9a58-f94e25eb0366,85,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN382380,bc0fe056-cf6c-4d51-8cde-838908677dad,51,70,common_cold,amoxicillin,500,3,7,444814009.0,2019-12-15,none,none,0
+SYN382388,bc0fe056-cf6c-4d51-8cde-838908677dad,51,70,common_cold,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN383015,6d8edcfd-f215-4a01-8652-cc87c799af6e,77,70,cardiac arrest,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN383058,c8429625-9a7e-4253-9192-d762325895f2,48,70,hypertension,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN383103,2460c26d-408e-41c1-9855-bebfa38a71bc,64,70,body mass index 30+ - obesity (finding),azithromycin,250,2,7,840539006.0,2020-03-17,none,none,0
+SYN383260,d7e5b556-ab73-4f08-ada3-d674baa4f7fe,18,70,cough (finding),amoxicillin,500,3,7,444814009.0,2020-03-15,none,none,1
+SYN383574,ef2eb031-1efd-4f44-8048-88d9b741de8e,6,48,streptococcal_pharyngitis,amoxicillin,500,3,7,,2019-10-02,none,none,0
+SYN383839,65b11cbc-a30d-4ed2-9234-88c3859daacf,49,70,acute_sinusitis,vancomycin,1000,3,7,,2020-03-04,none,none,0
+SYN384454,b1d1aa25-d42f-4ab9-b63d-a88627239a4a,55,70,atopic dermatitis,vancomycin,1000,3,7,,2020-03-10,none,none,0
+SYN384622,d294d59f-8225-45f5-9c1c-67324f8a286f,55,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-17,none,none,0
+SYN385236,d3bb715a-7752-4f34-80e0-2f9deab7da11,62,70,common_cold,vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN388612,f645631b-ecd9-40dd-82ae-53e71ff02750,104,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2013-06-03,none,none,1
+SYN389125,b3e8abd0-45b1-4a2e-8c55-af7935655c7b,104,70,prediabetes,amoxicillin,500,3,7,444814009.0,1981-04-20,none,none,1
+SYN389859,bfd1f054-8e34-4e5e-b022-748c02911729,28,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-12-06,none,none,1
+SYN392563,a79bd8d9-aed7-434c-b3be-cbb6b54b7f9a,90,70,hyperlipidemia,vancomycin,1000,3,7,87628006.0,2020-03-18,none,none,0
+SYN392909,6342d059-1848-4ba6-9dd8-d27c65e9f445,77,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-07-08,none,none,1
+SYN393737,23293da4-b79e-41f3-8d3d-81271dfe368a,58,70,prediabetes,amoxicillin,500,3,7,444814009.0,2019-10-20,none,none,1
+SYN393744,d68afd31-b4a0-4569-9b71-30789411156e,23,70,headache (finding),azithromycin,250,2,7,840539006.0,2020-03-07,none,none,0
+SYN393906,490d0270-ca9f-4c8c-9113-e923954a1b0c,4,42,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-06-26,none,none,0
+SYN394248,4764d12f-3498-4e93-bc94-9bc388bc9c1b,79,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN394665,0ef46962-8928-475e-8b2b-822273856e4c,83,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-03-08,none,none,1
+SYN394670,008154e3-ec08-4e10-9d6c-d3e4112e7129,9,57,laceration of thigh,penicillin,500,3,7,43878008.0,2020-04-30,none,none,1
+SYN395643,497af13e-b7e8-45ac-8b20-9e6d9cfe93bc,12,70,body mass index 30+ - obesity (finding),penicillin,500,3,7,43878008.0,2020-04-07,none,none,1
+SYN395720,21489b8a-cbd0-49ce-ae87-9905ed89d17f,10,60,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2018-08-05,none,none,1
+SYN395721,21489b8a-cbd0-49ce-ae87-9905ed89d17f,10,60,acute_sinusitis,penicillin,500,3,7,195662009.0,2019-06-26,none,none,1
+SYN395722,21489b8a-cbd0-49ce-ae87-9905ed89d17f,10,60,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-16,none,none,1
+SYN397303,cdd951ce-0bcf-447e-aaeb-d9c3ac2147c6,13,70,streptococcal_pharyngitis,penicillin,500,3,7,195662009.0,2019-09-16,none,none,0
+SYN397594,d09ec6eb-834b-4068-9bf4-5ca05c9a5100,85,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,87628006.0,2020-03-16,none,none,0
+SYN397671,a417125b-b1a4-4d89-8c78-21d673b196f5,8,54,cough (finding),penicillin,500,3,7,43878008.0,2020-04-10,none,none,1
+SYN397847,51eef3e7-71a1-49f4-acd1-a4dc30c84abc,103,70,prediabetes,penicillin,500,3,7,43878008.0,2019-07-14,none,none,1
+SYN398033,3e011a83-4723-4b43-a70a-18143de52850,14,70,common_cold,penicillin,500,3,7,43878008.0,2020-03-26,none,none,0
+SYN398274,707f94fa-f6d2-4c63-8c4a-32f29f7d7e2e,64,70,diabetes,vancomycin,1000,3,7,,2020-03-12,none,none,0
+SYN399494,644c23ab-a127-45e6-8167-ce781647d7fa,82,70,acute_sinusitis,amoxicillin,500,3,7,75498004.0,2009-04-16,none,none,1
+SYN400606,7644982b-4189-4230-98fe-7636a4b8cbd2,25,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-01-05,none,none,1
+SYN401462,53c26773-5cca-45c5-9b7c-5101eba4651e,42,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-03-24,none,none,1
+SYN402428,b19e4146-125c-42d4-87ce-fd7cb2a8e521,88,70,diabetes,penicillin,500,3,7,43878008.0,1998-09-14,none,none,1
+SYN402732,3a51cd14-815c-4c19-a298-caf999907722,12,70,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-11-15,none,none,0
+SYN403171,4fa4ca54-0b8c-4450-b342-445eba7ef457,2,36,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-01,none,none,0
+SYN403663,00b5b3b8-1c65-443e-b3c0-c0a11a733278,88,70,prediabetes,amoxicillin,500,3,7,444814009.0,2015-04-21,none,none,1
+SYN403769,ddd02282-b601-41ed-8363-0a390200a57c,77,70,prediabetes,vancomycin,1000,3,7,,2020-03-21,none,none,0
+SYN404134,0ff755c4-014c-494c-998e-f12e512808c6,1,33,acute_otitis_media,amoxicillin,500,3,7,,2019-05-23,none,none,0
+SYN405735,c034ceb9-03d8-4b1e-a348-6d1b55e60377,88,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-09-23,none,none,1
+SYN405837,460ba509-6586-45b4-880d-722806f4e07b,73,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-12-06,none,none,1
+SYN406000,582a581b-5832-444c-9916-cc107a03f9a0,67,70,hypertension,amoxicillin,500,3,7,,2019-06-18,none,none,1
+SYN406017,750b62ce-9a1a-41e6-8d85-73a11850cba1,29,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,75498004.0,2010-12-05,none,none,1
+SYN407153,6628dd02-0f1c-4197-afcc-c473c0437adf,26,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-20,none,none,0
+SYN407319,fbf2cbb6-42d7-4a46-82e9-23e4cc1c0787,18,70,cough (finding),amoxicillin,500,3,7,444814009.0,2020-03-21,none,none,1
+SYN407320,c6caa357-7e0c-4f24-885f-e84de484a08d,7,51,acute_otitis_media,amoxicillin,500,3,7,,2019-06-12,none,none,1
+SYN408569,81aa8c45-d275-4f93-ad0f-b49f1988bd61,3,39,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-06-06,none,none,0
+SYN408645,1ab0a2cd-8257-4ef1-87bd-9e1634fd9f35,51,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-04-27,none,none,1
+SYN408717,decd3a5f-53c8-4270-b947-c2a2e4681341,4,42,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-12-10,none,none,0
+SYN410046,b0da34f5-4f0b-4c5f-a96d-f7f4022930da,1,33,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2019-05-28,none,none,0
+SYN410597,7eb99231-636d-4fcf-afeb-c6ab91105328,3,39,laceration of forearm,amoxicillin,500,3,7,,2020-03-02,none,none,0
+SYN410701,94a43b49-9061-4a4e-a45b-353bd7cef5f7,76,70,seizure disorder,amoxicillin,500,3,7,,2019-10-29,none,none,1
+SYN410919,ab99a838-49e9-418a-9f8c-83c09a4c0d1a,48,70,miscarriage in first trimester,penicillin,500,3,7,43878008.0,2020-04-15,none,none,1
+SYN410965,b818aa4a-54f5-47bb-9999-277007fe4407,70,70,prediabetes,vancomycin,1000,3,7,,2020-03-11,none,none,0
+SYN411137,0138b15c-2616-4be2-9755-14255878cd99,105,70,osteoarthritis of hip,vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN411192,deb0ad54-4131-4d17-aa5b-2a0ed3ef095d,45,70,hypertension,penicillin,500,3,7,43878008.0,2019-06-05,none,none,1
+SYN411751,ce6c0b96-d708-45a0-9b56-720e62a462aa,28,70,seizure disorder,penicillin,500,3,7,43878008.0,2019-06-04,none,none,1
+SYN412390,8c597f8a-89c8-42d1-96b9-96cb8202fe29,105,70,hypertension,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN413016,fe46ef52-75cd-43a4-8a7d-2880b4449504,66,70,osteoarthritis of knee,vancomycin,1000,3,7,87628006.0,2020-03-13,none,none,0
+SYN413408,b27458cd-3c46-4161-b807-f6061cedbb05,43,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2019-07-18,none,none,1
+SYN413528,ebd50630-d677-42e7-b0f8-88bb988d11d7,5,45,common_cold,amoxicillin,500,3,7,,2019-10-06,none,none,0
+SYN416074,4629ecec-d4a6-4e8a-b005-62a894a74983,9,57,fatigue (finding),penicillin,500,3,7,43878008.0,2020-03-22,none,none,1
+SYN416342,adb35fa3-324b-4385-81d6-941888115b61,67,70,appendicitis,vancomycin,1000,3,7,,2020-03-25,none,none,0
+SYN418225,4f9e58ac-058c-4512-b382-f37fa46497af,2,36,cough (finding),amoxicillin,500,3,7,,2020-04-28,none,none,0
+SYN418355,0287fbc1-28c0-4317-83d9-f2942f2279f0,69,70,impacted molars,amoxicillin,500,3,7,,2019-08-16,none,none,1
+SYN418856,67f32c40-6b78-4813-8b36-067618e81238,16,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-05-29,none,none,1
+SYN419175,dbc5e30b-87f3-4cda-b15a-4bbe7446b82c,5,45,atopic dermatitis,amoxicillin,500,3,7,,2019-11-25,none,none,0
+SYN419187,c147d865-96ca-46ff-9cfe-ea94ff618d7b,29,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-11-11,none,none,1
+SYN419222,036aa946-f1f4-49a6-b4ad-13b7e5f74fdd,8,54,atopic dermatitis,amoxicillin,500,3,7,,2019-06-23,none,none,1
+SYN419727,ad4cc642-f798-4275-9d84-431f8c653772,21,70,atopic dermatitis,amoxicillin,500,3,7,444814009.0,2020-02-20,none,none,1
+SYN419728,73da4bf0-47b2-4937-836d-df875a71585a,7,51,streptococcal_pharyngitis,penicillin,500,3,7,43878008.0,2020-01-29,none,none,0
+SYN420791,40b1bd20-c1c8-4755-9e10-98b88922aa43,78,70,hypertension,vancomycin,1000,3,7,87628006.0,2020-03-17,none,none,0
+SYN421411,8a773f51-2ed4-4284-bbed-d2e55bd53a7d,95,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,444814009.0,2008-09-18,none,none,1
+SYN421420,a123cdd4-b89d-42fd-8cea-0ac362f0c376,50,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-04-27,none,none,1
+SYN421976,4afcc1bb-74b9-4b2c-887f-b2c6d5c7b9af,33,70,cough (finding),penicillin,500,3,7,43878008.0,2020-04-26,none,none,1
+SYN422482,f30c15a6-1578-41db-981d-d96504f2c472,14,70,acute_otitis_media,amoxicillin,500,3,7,,2019-07-16,none,none,1
+SYN422517,5917ed72-9ec8-40bf-a991-d1d1658d40a9,23,70,body mass index 30+ - obesity (finding),amoxicillin,500,3,7,36971009.0,2020-01-23,none,none,1
+SYN422624,b15078ec-255c-4aa8-b08c-91bc1682f305,95,70,acute_sinusitis,amoxicillin,500,3,7,36971009.0,1939-09-07,none,none,1
+SYN422858,6600b2c4-52d3-4583-8d93-675f9307201a,26,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1996-02-04,none,none,1
+SYN422859,6600b2c4-52d3-4583-8d93-675f9307201a,26,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1997-07-18,none,none,1
+SYN422860,6600b2c4-52d3-4583-8d93-675f9307201a,26,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-05-18,none,none,1
+SYN424250,346f9444-efe8-46b8-a641-634dee0be3d3,109,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN424553,e4ffe4e7-f67f-4029-be95-667fb008ba73,77,70,rupture of appendix,vancomycin,1000,3,7,,2020-03-08,none,none,0
+SYN424914,286b1203-3662-44c1-aa91-6734cd24b1c7,47,70,hypertension,vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN424996,0e55ddcc-ada3-46bc-870b-b43e2e73443c,48,70,prediabetes,vancomycin,1000,3,7,,2020-03-13,none,none,0
+SYN425063,eddf1d48-ba34-48ac-9ff9-4b69443af160,32,70,impacted molars,penicillin,500,3,7,43878008.0,2020-02-11,none,none,1
+SYN425146,09994ba6-d98f-4d11-8d3e-66159b04d2e3,48,70,hypertension,amoxicillin,500,3,7,444814009.0,2020-03-14,none,none,1
+SYN425425,46b401a6-9f72-4f1b-a6d1-c95c236cf51b,6,48,acute_otitis_media,amoxicillin,500,3,7,,2019-10-11,none,none,0
+SYN426565,8a56897f-4e14-4463-a534-77abcc6831bc,74,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-09,none,none,0
+SYN426571,9a17c0bf-aef9-4344-8772-6540d3aa3344,3,39,atopic dermatitis,penicillin,500,3,7,43878008.0,2019-12-08,none,none,1
+SYN427405,429fb60f-de0d-4293-99d0-2fb6a6475782,74,70,hypertension,vancomycin,1000,3,7,,2020-03-16,none,none,0
+SYN427640,291a36d2-e103-4abe-968d-5f8c29710951,88,70,appendicitis,amoxicillin,500,3,7,444814009.0,2020-02-10,none,none,1
+SYN428204,88354cfd-b899-48b2-bc5f-b6a9b5bb7a2c,21,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-10-15,none,none,1
+SYN428720,0a0ed3b8-75bf-4770-934d-74fac91bc4a8,73,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-03,none,none,0
+SYN429037,435bc023-0506-4c91-b80e-734d56e5991b,4,42,bullet wound,amoxicillin,500,3,7,,2020-01-27,none,none,0
+SYN429418,cc08ece6-5a10-454f-b1d8-830a4b02fd31,63,70,body mass index 30+ - obesity (finding),azithromycin,250,2,7,840539006.0,2020-03-09,none,none,0
+SYN429421,cc08ece6-5a10-454f-b1d8-830a4b02fd31,63,70,body mass index 30+ - obesity (finding),vancomycin,1000,3,7,,2020-03-15,none,none,0
+SYN429977,eec72396-d10e-4b8e-8fb6-25fc1e396031,58,70,prediabetes,penicillin,500,3,7,43878008.0,2020-02-29,none,none,1

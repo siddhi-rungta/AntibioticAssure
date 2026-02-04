@@ -1,0 +1,84 @@
+prescription_id,patient_id,patient_age,patient_weight_kg,diagnosis,antibiotic_prescribed,dosage_mg,frequency_per_day,duration_days,prescriber_id,date_prescribed,patient_allergies,comorbidities
+SYN54,10ecc353-34e9-2ab7-dea9-b7ff6b838b20,1,33,medication review due (situation),amoxicillin,500,3,7,,2020-10-07T14:32:06Z,none,none
+SYN56,10ecc353-34e9-2ab7-dea9-b7ff6b838b20,1,33,medication review due (situation),amoxicillin,500,3,7,,2023-01-03T14:32:06Z,none,none
+SYN58,10ecc353-34e9-2ab7-dea9-b7ff6b838b20,1,33,medication review due (situation),amoxicillin,500,3,7,,2025-08-03T14:32:06Z,none,none
+SYN69,a35dfed8-3039-7d94-313c-e27944ec65f7,1,33,medication review due (situation),penicillin,500,3,7,43878008.0,2024-11-28T20:22:31Z,none,none
+SYN70,a01df3b5-e092-96a4-76ce-8fa15c22dfb1,1,33,medication review due (situation),penicillin,500,3,7,43878008.0,2024-12-28T04:51:29Z,none,none
+SYN72,a01df3b5-e092-96a4-76ce-8fa15c22dfb1,1,33,medication review due (situation),amoxicillin,500,3,7,,2025-05-25T14:51:29Z,none,none
+SYN75,ac666eef-e0c1-87b3-b884-fd453ac848a6,54,70,risk activity involvement (finding),amoxicillin,500,3,7,36971009.0,2016-04-04T15:17:24Z,none,none
+SYN172,183aae24-99b3-bade-3f96-2ef5a4631d9c,30,70,traumatic or nontraumatic brain injury (disorder),penicillin,500,3,7,43878008.0,2024-02-07T03:57:04Z,none,none
+SYN208,c5dd81ca-1b9c-7562-6203-70d862ef3f33,11,63,common_cold,amoxicillin,500,3,7,444814009.0,2020-12-20T18:42:37Z,none,none
+SYN264,922118ba-e9c1-e63d-c63c-1ea0d8e73b40,11,63,seizure disorder (disorder),amoxicillin,500,3,7,,2024-05-26T09:36:35Z,none,none
+SYN328,b55cd669-99dc-ad42-5ec6-04e96407217f,51,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2018-09-09T16:01:05Z,none,none
+SYN331,99ef04bc-9ae7-7b5c-ce02-5a9943581a8b,34,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2021-10-19T15:29:27Z,none,none
+SYN332,a78ed2b6-781f-4b15-5144-72456138adb8,10,60,medication review due (situation),amoxicillin,500,3,7,444814009.0,2017-11-06T18:30:03Z,none,none
+SYN335,a78ed2b6-781f-4b15-5144-72456138adb8,10,60,medication review due (situation),amoxicillin,500,3,7,444814009.0,2025-01-21T09:30:03Z,none,none
+SYN337,e0c71b1d-2d27-a932-4d0d-8c1ebd658912,5,45,medication review due (situation),amoxicillin,500,3,7,,2016-10-07T12:04:48Z,none,none
+SYN339,e0c71b1d-2d27-a932-4d0d-8c1ebd658912,5,45,medication review due (situation),amoxicillin,500,3,7,,2017-04-27T12:04:48Z,none,none
+SYN341,e0c71b1d-2d27-a932-4d0d-8c1ebd658912,5,45,medication review due (situation),amoxicillin,500,3,7,,2018-08-15T12:04:48Z,none,none
+SYN347,ddfd836c-36a9-c784-8ce6-ca9862538da3,8,54,medication review due (situation),amoxicillin,500,3,7,444814009.0,2018-02-19T09:12:41Z,none,none
+SYN352,f1d449d4-11d9-b3bd-8822-ff860783ce51,71,70,acute_sinusitis,doxycycline,100,2,7,444814009.0,2004-05-04T00:03:33Z,none,none
+SYN462,e43e8a0d-7464-6d49-6699-4dc5c5456ef2,18,70,medication review due (situation),amoxicillin,500,3,7,36971009.0,2021-04-06T00:20:40Z,none,none
+SYN465,e43e8a0d-7464-6d49-6699-4dc5c5456ef2,18,70,medication review due (situation),ciprofloxacin,500,3,7,307426000.0,2021-10-11T03:47:14Z,none,none
+SYN483,e4e6d8d7-9db1-bee7-42f0-4e9ac1abd4e0,2,36,medication review due (situation),penicillin,500,3,7,43878008.0,2023-07-16T03:58:28Z,none,none
+SYN486,95c62760-a537-9488-77c2-a7444d8dc655,10,60,medication review due (situation),penicillin,500,3,7,43878008.0,2016-09-25T22:27:40Z,none,none
+SYN497,41a39ee6-612c-5557-4471-723c44e7b414,48,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2021-03-10T11:25:28Z,none,none
+SYN609,473282d3-65db-fb8e-9913-af83bbf2595f,31,70,medication review due (situation),penicillin,500,3,7,43878008.0,2016-10-29T10:30:00Z,none,none
+SYN615,473282d3-65db-fb8e-9913-af83bbf2595f,31,70,medication review due (situation),amoxicillin,500,3,7,444814009.0,2021-03-05T17:30:00Z,none,none
+SYN618,473282d3-65db-fb8e-9913-af83bbf2595f,31,70,medication review due (situation),penicillin,500,3,7,43878008.0,2023-03-08T15:30:00Z,none,none
+SYN665,d00420ac-9a07-66dc-ee93-d2e3e9bbf23e,6,48,medication review due (situation),amoxicillin,500,3,7,,2016-02-21T21:13:47Z,none,none
+SYN731,3204786e-414f-d3b3-00d7-db5c73e20c74,51,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2019-01-23T21:21:01Z,none,none
+SYN782,7895d5d9-a8a5-be61-815b-b204a2bba816,64,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2016-03-10T11:50:55Z,none,none
+SYN893,6c2c8853-6848-bef3-71dd-999cb76bf9e8,44,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-11-13T19:37:05Z,none,none
+SYN1184,9c867408-0359-e6e7-4eb3-19a635685828,48,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2018-09-13T09:55:38Z,none,none
+SYN1224,92689063-c0d0-ffeb-4f9e-5cf3d74f0d70,19,70,medication review due (situation),trimethoprim,500,3,7,307426000.0,2016-07-06T22:22:58Z,none,none
+SYN1225,92689063-c0d0-ffeb-4f9e-5cf3d74f0d70,19,70,medication review due (situation),cephalexin,500,3,7,307426000.0,2016-07-07T03:49:26Z,none,none
+SYN1232,92689063-c0d0-ffeb-4f9e-5cf3d74f0d70,19,70,medication review due (situation),amoxicillin,500,3,7,444814009.0,2025-09-06T00:05:01Z,none,none
+SYN1234,9c127696-0332-e0c0-c60a-e02bbbd4b4a6,1,33,medication review due (situation),amoxicillin,500,3,7,,2021-02-11T23:07:53Z,none,none
+SYN1237,9c127696-0332-e0c0-c60a-e02bbbd4b4a6,1,33,medication review due (situation),penicillin,500,3,7,43878008.0,2021-05-14T18:07:53Z,none,none
+SYN1256,edd959a2-e707-37e6-b5ab-3d38620178ae,74,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2015-02-24T19:37:44Z,none,none
+SYN1289,edd959a2-e707-37e6-b5ab-3d38620178ae,74,70,received higher education (finding),penicillin,500,3,7,43878008.0,2021-06-25T08:37:44Z,none,none
+SYN1291,edd959a2-e707-37e6-b5ab-3d38620178ae,74,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2021-07-16T08:37:44Z,none,none
+SYN1377,996793f4-da0e-1a4c-f462-c2088fd44567,19,70,medication review due (situation),amoxicillin,500,3,7,444814009.0,2021-09-15T06:09:22Z,none,none
+SYN1390,198ed260-8fe4-533c-f85c-a24b73f88197,74,70,risk activity involvement (finding),penicillin,500,3,7,43878008.0,2017-09-29T08:37:44Z,none,none
+SYN1444,bdfed7c9-255f-2e09-25e8-7880f3a77ffd,54,70,housing unsatisfactory (finding),amoxicillin,500,3,7,444814009.0,2018-03-18T02:25:17Z,none,none
+SYN1488,5fe4c4ba-9ea7-a5e2-94fe-bbf78b0a0e76,15,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2019-10-11T19:50:18Z,none,none
+SYN1495,5fe4c4ba-9ea7-a5e2-94fe-bbf78b0a0e76,15,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2025-09-03T17:50:18Z,none,none
+SYN1499,0c1a1859-29c7-4f11-f21c-20a7099e8613,24,70,only received primary school education (finding),penicillin,500,3,7,43878008.0,2018-12-16T04:26:02Z,none,none
+SYN1501,0c1a1859-29c7-4f11-f21c-20a7099e8613,24,70,only received primary school education (finding),amoxicillin,500,3,7,444814009.0,2020-06-22T23:26:02Z,none,none
+SYN1567,78f6f5c0-702d-7524-d723-0e99f1af7493,24,70,chronic pain (finding),ciprofloxacin,500,3,7,307426000.0,2025-03-01T02:40:15Z,none,none
+SYN1582,4556f3e0-f7d4-c302-394f-c251a8468454,17,70,atopic dermatitis (disorder),ciprofloxacin,500,3,7,307426000.0,2023-11-02T16:33:05Z,none,none
+SYN1596,09cb2fb8-8a9d-f75f-135e-8bb95d9f446f,59,70,acute_sinusitis,ciprofloxacin,500,3,7,307426000.0,1996-03-16T01:58:56Z,none,none
+SYN1632,09cb2fb8-8a9d-f75f-135e-8bb95d9f446f,59,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2002-08-14T00:45:13Z,none,none
+SYN1703,e6ccf48c-3e81-913d-b524-b51238580947,40,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2020-08-13T11:45:07Z,none,none
+SYN1737,9a5ecccf-e4ae-658f-a8ae-177811f90535,77,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1987-11-20T07:18:28Z,none,none
+SYN1809,37bd4d32-a844-0fa7-a797-ef09c605d25b,59,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2022-03-22T12:45:13Z,none,none
+SYN1838,844f3814-39df-ab0a-66d0-99e02201f020,30,70,received higher education (finding),amoxicillin,500,3,7,75498004.0,2015-10-23T23:02:13Z,none,none
+SYN1954,c43bd496-8a2c-0077-2788-c3a5b83f8373,101,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2024-05-17T06:45:04Z,none,none
+SYN1965,7cc6906f-b761-e388-2d83-92ebd39fb4c3,62,70,risk activity involvement (finding),amoxicillin,500,3,7,444814009.0,2018-08-29T03:48:24Z,none,none
+SYN2041,a45c5e62-4fc4-e756-248a-d796108c0072,18,70,acute_sinusitis,trimethoprim,500,3,7,307426000.0,2018-04-05T15:21:59Z,none,none
+SYN2042,a45c5e62-4fc4-e756-248a-d796108c0072,18,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,2018-06-25T22:03:33Z,none,none
+SYN2055,81242324-2d94-ddf3-a684-d58a75c06ee6,62,70,risk activity involvement (finding),cephalexin,500,3,7,307426000.0,1997-07-17T15:15:56Z,none,none
+SYN2070,81242324-2d94-ddf3-a684-d58a75c06ee6,62,70,risk activity involvement (finding),vancomycin,1000,3,7,91302008.0,2002-05-16T13:46:15Z,none,none
+SYN2286,10756f0a-1b93-ad7a-b8d2-55d1f495394a,6,48,medication review due (situation),amoxicillin,500,3,7,,2017-09-06T19:40:45Z,none,none
+SYN2288,10756f0a-1b93-ad7a-b8d2-55d1f495394a,6,48,medication review due (situation),amoxicillin,500,3,7,444814009.0,2018-03-25T19:40:45Z,none,none
+SYN2289,10756f0a-1b93-ad7a-b8d2-55d1f495394a,6,48,medication review due (situation),amoxicillin,500,3,7,,2018-12-21T19:40:45Z,none,none
+SYN2317,fea51c36-faca-d976-bde4-e2dc25983e62,62,70,acute_sinusitis,penicillin,500,3,7,43878008.0,2020-10-05T13:46:15Z,none,none
+SYN2347,c1c3c100-de6b-30c7-e7f1-82441577277d,22,70,medication review due (situation),cephalexin,500,3,7,307426000.0,2019-05-12T02:31:57Z,none,none
+SYN2353,c1c3c100-de6b-30c7-e7f1-82441577277d,22,70,medication review due (situation),amoxicillin,500,3,7,444814009.0,2024-02-26T12:54:34Z,none,none
+SYN2508,44df6c54-b461-d375-f129-fe249c18874d,47,70,risk activity involvement (finding),ciprofloxacin,500,3,7,307426000.0,2017-06-21T09:43:23Z,none,none
+SYN2574,ab27141b-099a-744e-4a5f-727f4802bdf9,53,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2018-06-25T04:54:40Z,none,none
+SYN3080,b4b75040-9460-1b1b-ad10-089a9ed69e9f,34,70,received higher education (finding),amoxicillin,500,3,7,444814009.0,2017-05-17T14:10:54Z,none,none
+SYN3170,a1579aac-7782-f39d-d83d-4ff73c13b648,18,70,medication review due (situation),amoxicillin,500,3,7,36971009.0,2025-08-22T03:23:56Z,none,none
+SYN3189,d1dd5867-a35a-7737-c619-35ab92616b9d,24,70,medication review due (situation),ciprofloxacin,500,3,7,307426000.0,2017-11-01T20:17:52Z,none,none
+SYN3203,6ea8365d-e53f-2d4b-23b4-8eb3d83bd2cb,23,70,educated to high school level (finding),amoxicillin,500,3,7,444814009.0,2025-08-07T20:48:00Z,none,none
+SYN3207,5f0b80f3-7971-e95c-0fce-d80ffcbf4602,96,70,risk activity involvement (finding),amoxicillin,500,3,7,444814009.0,1980-10-02T07:53:45Z,none,none
+SYN3258,fb1c17bf-f36f-ff24-5a5d-227fd01e447d,22,70,medication review due (situation),ciprofloxacin,500,3,7,307426000.0,2023-11-11T14:46:34Z,none,none
+SYN3260,fb1c17bf-f36f-ff24-5a5d-227fd01e447d,22,70,medication review due (situation),amoxicillin,500,3,7,444814009.0,2025-03-30T03:13:22Z,none,none
+SYN3857,55087eb9-d0fe-bcab-4b86-5b8ea0c45077,72,70,received higher education (finding),amoxicillin,500,3,7,75498004.0,2020-09-14T11:28:42Z,none,none
+SYN4487,814b53c4-d5e3-2db5-4842-e419e56b54c8,96,70,serving in military service (finding),ciprofloxacin,500,3,7,307426000.0,1981-01-20T10:06:49Z,none,none
+SYN4892,fb62c08e-8900-5fb2-8a98-af95f64125ff,52,70,risk activity involvement (finding),penicillin,500,3,7,43878008.0,2018-10-28T18:17:21Z,none,none
+SYN5131,fb62c08e-8900-5fb2-8a98-af95f64125ff,52,70,risk activity involvement (finding),amoxicillin,500,3,7,444814009.0,2021-02-01T12:17:21Z,none,none
+SYN5181,399c2cef-f4a7-a47d-449b-c08738a8bb77,56,70,acute_sinusitis,amoxicillin,500,3,7,444814009.0,1998-12-30T06:40:01Z,none,none
+SYN5185,0bdd1a87-dca8-5164-8ec6-28cc7b17cfb9,33,70,loss of teeth (disorder),amoxicillin,500,3,7,444814009.0,2016-09-17T08:18:19Z,none,none
+SYN5194,ce16264b-b955-e2a2-bd49-5ce02cc20d7c,13,70,medication review due (situation),penicillin,500,3,7,43878008.0,2020-05-13T17:20:41Z,none,none

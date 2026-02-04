@@ -1,0 +1,40 @@
+{
+  "import_date": "2026-02-04T15:12:23.436257",
+  "source": "Synthea Synthetic Data",
+  "input_directory": "data/synthea",
+  "output_directory": "data/synthea_processed",
+  "statistics": {
+    "total_patients": 115,
+    "total_medications": 5807,
+    "total_conditions": 4516,
+    "antibiotic_prescriptions": 83,
+    "unique_antibiotics": 7,
+    "unique_diagnoses": 14,
+    "age_range": {
+      "min": 1,
+      "max": 101,
+      "mean": 33.06024096385542
+    }
+  },
+  "antibiotics": {
+    "amoxicillin": 52,
+    "penicillin": 16,
+    "ciprofloxacin": 8,
+    "cephalexin": 3,
+    "trimethoprim": 2,
+    "doxycycline": 1,
+    "vancomycin": 1
+  },
+  "diagnoses": {
+    "medication review due (situation)": 36,
+    "acute_sinusitis": 13,
+    "risk activity involvement (finding)": 9,
+    "received higher education (finding)": 9,
+    "educated to high school level (finding)": 6,
+    "only received primary school education (finding)": 2,
+    "traumatic or nontraumatic brain injury (disorder)": 1,
+    "common_cold": 1,
+    "seizure disorder (disorder)": 1,
+    "housing unsatisfactory (finding)": 1
+  }
+}

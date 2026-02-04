@@ -1,0 +1,209 @@
+{
+  "antibiotic_guidelines": {
+    "amoxicillin": {
+      "indications": ["acute_otitis_media", "streptococcal_pharyngitis", "community_acquired_pneumonia", "urinary_tract_infection"],
+      "contraindications": ["penicillin_allergy", "infectious_mononucleosis"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 500,
+        "frequency_per_day": 3,
+        "min_duration_days": 5,
+        "max_duration_days": 10
+      },
+      "pediatric_dosage": {
+        "mg_per_kg_per_day": 25,
+        "max_mg_per_day": 1500,
+        "frequency_per_day": 3,
+        "min_duration_days": 5,
+        "max_duration_days": 10
+      },
+      "spectrum": "narrow",
+      "class": "penicillin"
+    },
+    "penicillin": {
+      "indications": ["streptococcal_pharyngitis", "acute_otitis_media", "skin_infection", "dental_infection"],
+      "contraindications": ["penicillin_allergy", "infectious_mononucleosis"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 500,
+        "frequency_per_day": 3,
+        "min_duration_days": 5,
+        "max_duration_days": 10
+      },
+      "pediatric_dosage": {
+        "mg_per_kg_per_day": 25,
+        "max_mg_per_day": 1500,
+        "frequency_per_day": 3,
+        "min_duration_days": 5,
+        "max_duration_days": 10
+      },
+      "spectrum": "narrow",
+      "class": "penicillin"
+    },
+    "azithromycin": {
+      "indications": ["community_acquired_pneumonia", "acute_bacterial_sinusitis", "bronchitis", "skin_infection"],
+      "contraindications": ["liver_disease", "qt_prolongation"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 500,
+        "frequency_per_day": 1,
+        "min_duration_days": 3,
+        "max_duration_days": 5
+      },
+      "pediatric_dosage": {
+        "mg_per_kg_per_day": 10,
+        "max_mg_per_day": 500,
+        "frequency_per_day": 1,
+        "min_duration_days": 3,
+        "max_duration_days": 5
+      },
+      "spectrum": "broad",
+      "class": "macrolide"
+    },
+    "ciprofloxacin": {
+      "indications": ["urinary_tract_infection", "acute_pyelonephritis", "complicated_uti", "prostatitis"],
+      "contraindications": ["pregnancy", "children_under_18", "tendon_disorders"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 750,
+        "frequency_per_day": 2,
+        "min_duration_days": 3,
+        "max_duration_days": 14
+      },
+      "spectrum": "broad",
+      "class": "fluoroquinolone",
+      "warnings": ["reserved_for_specific_indications", "avoid_in_simple_infections"]
+    },
+    "ceftriaxone": {
+      "indications": ["severe_pneumonia", "meningitis", "sepsis", "complicated_infections"],
+      "contraindications": ["cephalosporin_allergy"],
+      "adult_dosage": {
+        "min_mg": 1000,
+        "max_mg": 2000,
+        "frequency_per_day": 1,
+        "min_duration_days": 5,
+        "max_duration_days": 14
+      },
+      "pediatric_dosage": {
+        "mg_per_kg_per_day": 50,
+        "max_mg_per_day": 2000,
+        "frequency_per_day": 1,
+        "min_duration_days": 5,
+        "max_duration_days": 14
+      },
+      "spectrum": "broad",
+      "class": "cephalosporin",
+      "route": "iv_or_im"
+    },
+    "doxycycline": {
+      "indications": ["respiratory_tract_infection", "acne", "lyme_disease", "chlamydia"],
+      "contraindications": ["pregnancy", "children_under_8", "severe_liver_disease"],
+      "adult_dosage": {
+        "min_mg": 100,
+        "max_mg": 200,
+        "frequency_per_day": 1,
+        "min_duration_days": 5,
+        "max_duration_days": 14
+      },
+      "spectrum": "broad",
+      "class": "tetracycline"
+    },
+    "vancomycin": {
+      "indications": ["mrsa_infection", "c_difficile", "endocarditis", "severe_staph_infection"],
+      "contraindications": ["vancomycin_allergy"],
+      "adult_dosage": {
+        "min_mg": 125,
+        "max_mg": 2000,
+        "frequency_per_day": 2,
+        "min_duration_days": 7,
+        "max_duration_days": 14
+      },
+      "spectrum": "narrow",
+      "class": "glycopeptide",
+      "route": "iv",
+      "warnings": ["reserved_antibiotic", "requires_therapeutic_monitoring"]
+    },
+    "levofloxacin": {
+      "indications": ["community_acquired_pneumonia", "acute_bacterial_sinusitis", "urinary_tract_infection"],
+      "contraindications": ["pregnancy", "children_under_18", "tendon_disorders", "qt_prolongation"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 750,
+        "frequency_per_day": 1,
+        "min_duration_days": 5,
+        "max_duration_days": 14
+      },
+      "spectrum": "broad",
+      "class": "fluoroquinolone",
+      "warnings": ["fda_black_box_warning", "serious_side_effects_risk"]
+    },
+    "metronidazole": {
+      "indications": ["anaerobic_infections", "c_difficile", "bacterial_vaginosis", "intra_abdominal_infection"],
+      "contraindications": ["first_trimester_pregnancy", "alcohol_consumption"],
+      "adult_dosage": {
+        "min_mg": 250,
+        "max_mg": 500,
+        "frequency_per_day": 3,
+        "min_duration_days": 5,
+        "max_duration_days": 14
+      },
+      "spectrum": "narrow",
+      "class": "nitroimidazole"
+    }
+  },
+  "diagnosis_to_antibiotic": {
+    "common_cold": {
+      "requires_antibiotic": false,
+      "reason": "Viral infection, antibiotics not indicated"
+    },
+    "influenza": {
+      "requires_antibiotic": false,
+      "reason": "Viral infection, antibiotics not indicated unless secondary bacterial infection"
+    },
+    "acute_bronchitis": {
+      "requires_antibiotic": false,
+      "reason": "Usually viral, antibiotics rarely needed"
+    },
+    "streptococcal_pharyngitis": {
+      "requires_antibiotic": true,
+      "first_line": ["amoxicillin", "penicillin"],
+      "alternative": ["azithromycin", "cephalexin"]
+    },
+    "community_acquired_pneumonia": {
+      "requires_antibiotic": true,
+      "first_line": ["amoxicillin", "azithromycin"],
+      "severe_cases": ["ceftriaxone", "levofloxacin"]
+    },
+    "urinary_tract_infection": {
+      "requires_antibiotic": true,
+      "first_line": ["nitrofurantoin", "trimethoprim-sulfamethoxazole"],
+      "alternative": ["ciprofloxacin"],
+      "complicated": ["ciprofloxacin", "levofloxacin"]
+    },
+    "acute_otitis_media": {
+      "requires_antibiotic": true,
+      "first_line": ["amoxicillin", "penicillin"],
+      "alternative": ["azithromycin"]
+    },
+    "skin_infection": {
+      "requires_antibiotic": true,
+      "first_line": ["cephalexin", "dicloxacillin"],
+      "mrsa_suspected": ["doxycycline", "trimethoprim-sulfamethoxazole"]
+    }
+  },
+  "stewardship_rules": {
+    "avoid_broad_spectrum_for_simple_infections": {
+      "description": "Use narrow-spectrum antibiotics for uncomplicated infections",
+      "broad_spectrum_antibiotics": ["ciprofloxacin", "levofloxacin", "ceftriaxone", "azithromycin"]
+    },
+    "duration_limits": {
+      "description": "Avoid unnecessarily long antibiotic courses",
+      "typical_max_days": 14,
+      "exceptions": ["endocarditis", "osteomyelitis", "tuberculosis"]
+    },
+    "no_antibiotics_for_viral": {
+      "description": "Do not prescribe antibiotics for viral infections",
+      "viral_diagnoses": ["common_cold", "influenza", "viral_pharyngitis", "acute_bronchitis"]
+    }
+  }
+}

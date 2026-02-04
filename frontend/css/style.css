@@ -1,0 +1,342 @@
+/* Custom Styles for Antibiotic Prescription Monitor */
+
+:root {
+    --primary-color: #c066d2;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --dark-color: #212529;
+    --bs-primary: #c066d2;
+}
+
+/* Override Bootstrap primary color to purple */
+.bg-primary {
+    background-color: #c066d2 !important;
+}
+
+.text-primary {
+    color: #c066d2 !important;
+}
+
+.btn-primary {
+    background-color: #c066d2;
+    border-color: #c066d2;
+}
+
+.btn-primary:hover {
+    background-color: #a84db5;
+    border-color: #a84db5;
+}
+
+.btn-info {
+    background-color: #c066d2;
+    border-color: #c066d2;
+}
+
+.btn-info:hover {
+    background-color: #a84db5;
+    border-color: #a84db5;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+
+.navbar-dark .navbar-brand {
+    color: #c066d2 !important;
+}
+
+.form-control:focus {
+    border-color: #c066d2;
+    box-shadow: 0 0 0 0.2rem rgba(192, 102, 210, 0.25);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navbar-brand i {
+    font-size: 1.5rem;
+}
+
+/* Header Cards */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    scroll-margin-top: 80px;
+}
+
+section h2 {
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+.form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Buttons */
+.btn {
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-lg {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+}
+
+/* Results */
+.alert-result {
+    border-left: 5px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.alert-critical {
+    border-left-color: var(--danger-color);
+    background-color: #f8d7da;
+}
+
+.alert-high {
+    border-left-color: #fd7e14;
+    background-color: #fff3cd;
+}
+
+.alert-moderate {
+    border-left-color: var(--warning-color);
+    background-color: #fff8e1;
+}
+
+.alert-low {
+    border-left-color: var(--success-color);
+    background-color: #d1e7dd;
+}
+
+/* Violation Cards */
+.violation-card {
+    border-left: 4px solid;
+    margin-bottom: 15px;
+    transition: all 0.2s;
+}
+
+.violation-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateX(5px);
+}
+
+.violation-critical {
+    border-left-color: var(--danger-color);
+}
+
+.violation-high {
+    border-left-color: #fd7e14;
+}
+
+.violation-medium {
+    border-left-color: var(--warning-color);
+}
+
+.violation-low {
+    border-left-color: var(--success-color);
+}
+
+/* Statistics */
+.stat-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #c066d2 0%, #764ba2 100%);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.stat-card h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Loading Spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.spinner-border-custom {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Badge Styles */
+.badge-custom {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+/* Tables */
+.table-custom {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-custom thead {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Prescription Summary */
+.prescription-summary {
+    background: linear-gradient(135deg, #c066d2 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.prescription-summary h4 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.prescription-detail {
+    margin-bottom: 10px;
+}
+
+.prescription-detail strong {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Recommendations */
+.recommendations-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recommendations-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e7f3ff;
+    border-left: 4px solid var(--info-color);
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .display-5 {
+        font-size: 2rem;
+    }
+
+    .stat-card h3 {
+        font-size: 2rem;
+    }
+
+    .btn-lg {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Severity Icons */
+.severity-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* Progress Bar for Confidence */
+.confidence-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+
+.confidence-fill {
+    height: 100%;
+    transition: width 0.5s ease;
+}
+
+.confidence-high {
+    background-color: var(--success-color);
+}
+
+.confidence-medium {
+    background-color: var(--warning-color);
+}
+
+.confidence-low {
+    background-color: var(--danger-color);
+}
