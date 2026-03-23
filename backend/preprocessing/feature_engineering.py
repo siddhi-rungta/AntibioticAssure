@@ -40,6 +40,14 @@ class FeatureEngineer:
                                   bins=[0, 12, 18, 65, 120],
                                   labels=['child', 'adolescent', 'adult', 'elderly'])
 
+        # Gender features (optional)
+        if 'patient_gender' in df.columns:
+            df['is_female'] = df['patient_gender'].apply(lambda x: 1 if str(x).lower() == 'female' else 0)
+            df['is_male'] = df['patient_gender'].apply(lambda x: 1 if str(x).lower() == 'male' else 0)
+        else:
+            df['is_female'] = 0
+            df['is_male'] = 0
+
         # Dosage features
         if 'dosage_mg' in df.columns and 'patient_weight_kg' in df.columns:
             df['dosage_per_kg'] = df['dosage_mg'] / df['patient_weight_kg'].replace(0, np.nan)
@@ -116,6 +124,11 @@ class FeatureEngineer:
         else:
             features['age_group'] = 'elderly'
 
+        # Gender features
+        gender = str(features.get('patient_gender', '')).lower()
+        features['is_female'] = 1 if gender == 'female' else 0
+        features['is_male'] = 1 if gender == 'male' else 0
+
         # Dosage features
         weight = features.get('patient_weight_kg', 70)
         dosage = features.get('dosage_mg', 0)
@@ -155,7 +168,7 @@ class FeatureEngineer:
     def get_feature_names(self) -> List[str]:
         """Get list of feature names for ML model"""
         return [
-            'patient_age', 'is_pediatric', 'is_elderly',
+            'patient_age', 'is_pediatric', 'is_elderly', 'is_female', 'is_male',
             'dosage_mg', 'dosage_per_kg', 'frequency_per_day',
             'total_daily_dose', 'total_course_dose', 'duration_days',
             'is_short_course', 'is_long_course', 'is_excessive_duration',

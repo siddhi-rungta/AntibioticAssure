@@ -50,6 +50,7 @@ class ExplainabilityEngine:
         """Create a concise summary of the prescription"""
         return {
             'patient_age': f"{prescription.get('patient_age')} years",
+            'patient_gender': prescription.get('patient_gender', 'Not specified').title(),
             'diagnosis': prescription.get('diagnosis', 'Unknown').replace('_', ' ').title(),
             'antibiotic': prescription.get('antibiotic_prescribed', 'Unknown').title(),
             'dosage': f"{prescription.get('dosage_mg')}mg {prescription.get('frequency_per_day')}x/day",

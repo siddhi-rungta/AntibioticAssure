@@ -5,6 +5,7 @@ const API_BASE_URL = `${window.location.protocol}//${window.location.host}/api`;
 const SAMPLE_DATA = {
     prescription_id: 'P001',
     patient_age: 45,
+    patient_gender: 'male',
     patient_weight_kg: 70,
     diagnosis: 'community_acquired_pneumonia',
     antibiotic_prescribed: 'amoxicillin',
@@ -52,6 +53,7 @@ async function checkServerHealth() {
 function loadSampleData() {
     document.getElementById('prescription_id').value = SAMPLE_DATA.prescription_id;
     document.getElementById('patient_age').value = SAMPLE_DATA.patient_age;
+    document.getElementById('patient_gender').value = SAMPLE_DATA.patient_gender;
     document.getElementById('patient_weight_kg').value = SAMPLE_DATA.patient_weight_kg;
     document.getElementById('diagnosis').value = SAMPLE_DATA.diagnosis;
     document.getElementById('antibiotic_prescribed').value = SAMPLE_DATA.antibiotic_prescribed;
@@ -79,6 +81,7 @@ async function handlePrescriptionSubmit(event) {
     const prescription = {
         prescription_id: prescriptionId,
         patient_age: parseInt(document.getElementById('patient_age').value),
+        patient_gender: document.getElementById('patient_gender').value || 'unknown',
         patient_weight_kg: parseFloat(document.getElementById('patient_weight_kg').value) || 70,
         diagnosis: document.getElementById('diagnosis').value,
         antibiotic_prescribed: document.getElementById('antibiotic_prescribed').value,
@@ -145,6 +148,9 @@ function displayResults(data) {
                     <div class="col-md-6">
                         <div class="prescription-detail">
                             <strong>Patient Age:</strong> ${explanation.prescription_summary.patient_age}
+                        </div>
+                        <div class="prescription-detail">
+                            <strong>Patient Gender:</strong> ${explanation.prescription_summary.patient_gender || 'Not specified'}
                         </div>
                         <div class="prescription-detail">
                             <strong>Diagnosis:</strong> ${explanation.prescription_summary.diagnosis}
