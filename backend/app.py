@@ -19,6 +19,7 @@ from backend.models.ml_model import AntibioticMLModel
 from backend.explainability.explainer import ExplainabilityEngine
 from backend.utils.guidelines import ClinicalGuidelines
 from backend.utils.validators import PrescriptionValidator
+from backend.image_processing.ocr_processor import OCRPrescriptionExtractor
 
 # Initialize Flask app
 app = Flask(__name__,
@@ -50,6 +51,7 @@ rule_engine = RuleEngine(guidelines)
 ml_model = AntibioticMLModel(model_type='random_forest')
 explainer = ExplainabilityEngine()
 validator = PrescriptionValidator()
+ocr_extractor = OCRPrescriptionExtractor()
 
 # Global variables
 MODEL_TRAINED = False
@@ -147,6 +149,59 @@ def evaluate_prescription():
             'success': False,
             'error': str(e)
         }), 500
+
+
+@app.route('/api/extract-prescription', methods=['POST'])
+def extract_prescription_from_image():
+    """Extract prescription fields from uploaded image via OCR"""
+    try:
+        if 'image' not in request.files:
+            return jsonify({'success': False, 'error': 'No image uploaded'}), 400
+
+        image_file = request.files['image']
+
+        if image_file.filename == '':
+            return jsonify({'success': False, 'error': 'Empty filename'}), 400
+
+        ocr_result = ocr_extractor.extract_from_image(image_file)
+
+        # If OCR text is empty and no OCR backend found, include troubleshooting info
+        if not ocr_result.get('text') and ocr_result.get('ocr_engine') == 'none':
+            ocr_result['notes'] = ['No OCR backend is available. Make sure easyocr is installed or configure your local Tesseract binary.']
+
+        # Indicate which engine is being used for easier environment debugging
+        if ocr_result.get('ocr_engine') == 'easyocr':
+            ocr_result['notes'] = (ocr_result.get('notes', []) + ['Using EasyOCR (no system binary needed).'])
+
+        return jsonify({
+            'success': True,
+            'ocr_result': ocr_result
+        })
+
+    except Exception as e:
+        import traceback
+        print(f"ERROR in /api/extract-prescription: {str(e)}")
+        print(traceback.format_exc())
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
+@app.route('/api/extract-prescription-text', methods=['POST'])
+def extract_prescription_from_text():
+    """Extract prescription fields from plain text (helper mode)"""
+    try:
+        data = request.json or {}
+        text = data.get('text', '')
+
+        if not isinstance(text, str) or not text.strip():
+            return jsonify({'success': False, 'error': 'No text provided'}), 400
+
+        parsed = ocr_extractor._parse_text(text)
+        return jsonify({'success': True, 'extracted': parsed})
+    except Exception as e:
+        import traceback
+        print(f"ERROR in /api/extract-prescription-text: {str(e)}")
+        print(traceback.format_exc())
+        return jsonify({'success': False, 'error': str(e)}), 500
 
 
 @app.route('/api/statistics', methods=['GET'])

@@ -88,6 +88,39 @@
         <!-- Evaluate Prescription Section -->
         <section id="evaluate" class="mb-5">
             <h2 class="mb-4"><i class="bi bi-clipboard-check"></i> Evaluate Prescription</h2>
+
+            <div class="card mb-4 border-info shadow-sm">
+                <div class="card-body">
+                    <h5 class="text-info mb-3">Image OCR Prescription Extraction</h5>
+                    <div class="row align-items-end">
+                        <div class="col-md-8 mb-3">
+                            <input class="form-control" type="file" id="prescriptionImageInput" accept="image/*" />
+                        </div>
+                        <div class="col-md-4 mb-3 text-end">
+                            <button id="extractImageBtn" type="button" class="btn btn-outline-primary w-100">
+                                <i class="bi bi-camera"></i> Extract from Image
+                            </button>
+                        </div>
+                    </div>
+                    <div id="ocrUserContainer" class="mt-3" style="display:none;">
+                        <div id="ocrUserAlert" class="alert alert-info mb-2">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="me-3">
+                                    <strong id="ocrUserTitle">Analyzing prescription…</strong>
+                                    <div class="small text-muted" id="ocrUserSubtitle">Extracting key fields and preparing the form.</div>
+                                </div>
+                                <div id="ocrUserSpinner" class="spinner-border spinner-border-sm text-info" role="status" aria-label="Loading"></div>
+                            </div>
+                        </div>
+                        <div id="ocrMissingFieldsContainer" class="alert alert-warning mb-0" style="display:none;">
+                            <strong>Review needed:</strong>
+                            <span class="small text-muted">Some required fields couldn’t be read from the image.</span>
+                            <ul id="ocrMissingFieldsList" class="mb-0 mt-2"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="card shadow">
                 <div class="card-body">
                     <form id="prescriptionForm">
@@ -98,6 +131,10 @@
                                 <div class="mb-3">
                                     <label for="prescription_id" class="form-label">Prescription ID <small class="text-muted">(Optional)</small></label>
                                     <input type="text" class="form-control" id="prescription_id" placeholder="Auto-generated if empty">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="patient_name" class="form-label">Patient Name <small class="text-muted">(Optional)</small></label>
+                                    <input type="text" class="form-control" id="patient_name" placeholder="John Doe">
                                 </div>
                                 <div class="mb-3">
                                     <label for="patient_age" class="form-label">Patient Age (years)</label>
@@ -121,8 +158,8 @@
                                     <input type="text" class="form-control" id="patient_allergies" placeholder="none or penicillin_allergy">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="comorbidities" class="form-label">Comorbidities</label>
-                                    <input type="text" class="form-control" id="comorbidities" placeholder="none or diabetes, hypertension">
+                                    <label for="patient_comorbidities" class="form-label">Comorbidities</label>
+                                    <input type="text" class="form-control" id="patient_comorbidities" placeholder="none or diabetes, hypertension">
                                 </div>
                             </div>
 
@@ -132,7 +169,6 @@
                                 <div class="mb-3">
                                     <label for="diagnosis" class="form-label">Diagnosis</label>
                                     <input type="text" class="form-control" id="diagnosis" placeholder="community_acquired_pneumonia" required>
-                                    <small class="text-muted">Use underscore format (e.g., urinary_tract_infection)</small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="antibiotic_prescribed" class="form-label">Antibiotic Prescribed</label>

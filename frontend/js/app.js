@@ -4,6 +4,7 @@ const API_BASE_URL = `${window.location.protocol}//${window.location.host}/api`;
 // Sample prescription data
 const SAMPLE_DATA = {
     prescription_id: 'P001',
+    patient_name: 'John Doe',
     patient_age: 45,
     patient_gender: 'male',
     patient_weight_kg: 70,
@@ -23,6 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Prescription form submission
     document.getElementById('prescriptionForm').addEventListener('submit', handlePrescriptionSubmit);
+
+    // Image OCR extraction button
+    document.getElementById('extractImageBtn').addEventListener('click', handleImageExtraction);
 
     // Load statistics button
     document.getElementById('loadStatsBtn').addEventListener('click', loadStatistics);
@@ -52,6 +56,7 @@ async function checkServerHealth() {
 // Load sample data into form
 function loadSampleData() {
     document.getElementById('prescription_id').value = SAMPLE_DATA.prescription_id;
+    document.getElementById('patient_name').value = SAMPLE_DATA.patient_name;
     document.getElementById('patient_age').value = SAMPLE_DATA.patient_age;
     document.getElementById('patient_gender').value = SAMPLE_DATA.patient_gender;
     document.getElementById('patient_weight_kg').value = SAMPLE_DATA.patient_weight_kg;
@@ -61,7 +66,7 @@ function loadSampleData() {
     document.getElementById('frequency_per_day').value = SAMPLE_DATA.frequency_per_day;
     document.getElementById('duration_days').value = SAMPLE_DATA.duration_days;
     document.getElementById('patient_allergies').value = SAMPLE_DATA.patient_allergies;
-    document.getElementById('comorbidities').value = SAMPLE_DATA.comorbidities;
+    document.getElementById('patient_comorbidities').value = SAMPLE_DATA.comorbidities;
 
     showNotification('Sample data loaded successfully', 'info');
 }
@@ -80,6 +85,7 @@ async function handlePrescriptionSubmit(event) {
     // Collect form data
     const prescription = {
         prescription_id: prescriptionId,
+        patient_name: document.getElementById('patient_name').value || 'Unknown',
         patient_age: parseInt(document.getElementById('patient_age').value),
         patient_gender: document.getElementById('patient_gender').value || 'unknown',
         patient_weight_kg: parseFloat(document.getElementById('patient_weight_kg').value) || 70,
@@ -89,7 +95,7 @@ async function handlePrescriptionSubmit(event) {
         frequency_per_day: parseInt(document.getElementById('frequency_per_day').value),
         duration_days: parseInt(document.getElementById('duration_days').value),
         patient_allergies: document.getElementById('patient_allergies').value || 'none',
-        comorbidities: document.getElementById('comorbidities').value || 'none'
+        comorbidities: document.getElementById('patient_comorbidities').value || 'none'
     };
 
     // Show loading
@@ -116,6 +122,160 @@ async function handlePrescriptionSubmit(event) {
     } catch (error) {
         console.error('Evaluation failed:', error);
         showNotification('Failed to evaluate prescription. Please check server connection.', 'danger');
+    }
+}
+
+// Handle OCR extraction from image
+async function updateOcrProgress(step, percent) {
+    // User-facing status only (hide raw OCR/internal engine details)
+    const container = document.getElementById('ocrUserContainer');
+    const titleEl = document.getElementById('ocrUserTitle');
+    const subtitleEl = document.getElementById('ocrUserSubtitle');
+    const spinnerEl = document.getElementById('ocrUserSpinner');
+
+    if (!container || !titleEl || !subtitleEl || !spinnerEl) return;
+
+    container.style.display = 'block';
+    titleEl.textContent = percent >= 100 ? 'Prescription analyzed' : 'Analyzing prescription…';
+    subtitleEl.textContent = step;
+    spinnerEl.style.display = percent >= 100 ? 'none' : 'inline-block';
+}
+
+function clearOcrMissingFieldUI() {
+    const missingContainer = document.getElementById('ocrMissingFieldsContainer');
+    const missingList = document.getElementById('ocrMissingFieldsList');
+    if (missingContainer) missingContainer.style.display = 'none';
+    if (missingList) missingList.innerHTML = '';
+}
+
+function setFieldInvalid(el, isInvalid) {
+    if (!el) return;
+    if (isInvalid) el.classList.add('is-invalid');
+    else el.classList.remove('is-invalid');
+}
+
+function checkRequiredFieldsAndShowMissing() {
+    const required = [
+        { id: 'patient_age', label: 'Patient age' },
+        { id: 'diagnosis', label: 'Diagnosis' },
+        { id: 'antibiotic_prescribed', label: 'Antibiotic prescribed' },
+        { id: 'dosage_mg', label: 'Dosage (mg)' },
+        { id: 'frequency_per_day', label: 'Frequency (times/day)' },
+        { id: 'duration_days', label: 'Duration (days)' },
+    ];
+
+    const missing = [];
+    for (const r of required) {
+        const el = document.getElementById(r.id);
+        const val = el ? String(el.value || '').trim() : '';
+        const isMissing = !val;
+        setFieldInvalid(el, isMissing);
+        if (isMissing) missing.push(r.label);
+    }
+
+    const missingContainer = document.getElementById('ocrMissingFieldsContainer');
+    const missingList = document.getElementById('ocrMissingFieldsList');
+    if (!missingContainer || !missingList) return;
+
+    if (missing.length > 0) {
+        missingList.innerHTML = missing.map(m => `<li>${m}</li>`).join('');
+        missingContainer.style.display = 'block';
+    } else {
+        missingContainer.style.display = 'none';
+        missingList.innerHTML = '';
+    }
+}
+
+async function handleImageExtraction() {
+    const imageInput = document.getElementById('prescriptionImageInput');
+    if (!imageInput || imageInput.files.length === 0) {
+        showNotification('Please select an image file first.', 'warning');
+        return;
+    }
+
+    const file = imageInput.files[0];
+    const formData = new FormData();
+    formData.append('image', file);
+
+    clearOcrMissingFieldUI();
+    await updateOcrProgress('Uploading image…', 10);
+
+    try {
+        await updateOcrProgress('Extracting key details from the image…', 30);
+        const response = await fetch(`${API_BASE_URL}/extract-prescription`, {
+            method: 'POST',
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (!result.success) {
+            updateOcrProgress('OCR failed', 100);
+            const errMsg = `OCR failed: ${result.error || 'Unknown error'}`;
+            showNotification(errMsg, 'danger');
+            return;
+        }
+
+        await updateOcrProgress('Understanding the prescription format…', 70);
+
+        const ocrData = result.ocr_result;
+        await updateOcrProgress('Filling the form fields…', 85);
+
+        const extracted = ocrData.extracted || {};
+
+        // Keep notes internal; only surface a short message if it affects the user
+        if (Array.isArray(ocrData.notes) && ocrData.notes.some(n => String(n).toLowerCase().includes('no ocr backend'))) {
+            showNotification('OCR engine is not available on this machine. Install EasyOCR or configure Tesseract to extract from images.', 'warning');
+        }
+
+        // Fill in patient information fields
+        if (extracted.prescription_id) document.getElementById('prescription_id').value = extracted.prescription_id;
+        if (extracted.patient_name) document.getElementById('patient_name').value = extracted.patient_name;
+        if (extracted.patient_age) document.getElementById('patient_age').value = extracted.patient_age;
+        
+        if (extracted.patient_gender) {
+            const genderSelect = document.getElementById('patient_gender');
+            const genderValue = extracted.patient_gender.toLowerCase();
+            if (genderValue.includes('male')) {
+                genderSelect.value = 'male';
+            } else if (genderValue.includes('female')) {
+                genderSelect.value = 'female';
+            }
+        }
+        
+        if (extracted.patient_weight_kg) document.getElementById('patient_weight_kg').value = extracted.patient_weight_kg;
+        if (extracted.patient_allergies) document.getElementById('patient_allergies').value = extracted.patient_allergies;
+        if (extracted.patient_comorbidities) document.getElementById('patient_comorbidities').value = extracted.patient_comorbidities;
+
+        // Fill in prescription details
+        document.getElementById('diagnosis').value = extracted.diagnosis || '';
+
+        const antibioticSelect = document.getElementById('antibiotic_prescribed');
+        if (extracted.antibiotic_prescribed) {
+            let option = Array.from(antibioticSelect.options).find(o => o.value === extracted.antibiotic_prescribed);
+            if (!option) {
+                option = document.createElement('option');
+                option.value = extracted.antibiotic_prescribed;
+                option.text = extracted.antibiotic_prescribed;
+                antibioticSelect.appendChild(option);
+            }
+            antibioticSelect.value = extracted.antibiotic_prescribed;
+        } else {
+            antibioticSelect.value = '';
+        }
+
+        document.getElementById('dosage_mg').value = extracted.dosage_mg || '';
+
+        document.getElementById('frequency_per_day').value = extracted.frequency_per_day || '';
+        document.getElementById('duration_days').value = extracted.duration_days || '';
+
+        await updateOcrProgress('Done. Please review the highlighted fields (if any), then click “Evaluate Prescription”.', 100);
+        checkRequiredFieldsAndShowMissing();
+
+    } catch (error) {
+        console.error('OCR extraction failed:', error);
+        await updateOcrProgress('Failed', 100);
+        showNotification('Failed to extract text from image. Please check server and file format.', 'danger');
     }
 }
 
