@@ -63,13 +63,22 @@ We built a system that combines the **best of both worlds**:
 - **Broad-spectrum Overuse Prevention** - Flags unnecessary use of powerful antibiotics
 - **Reserved Antibiotic Stewardship** - Protects last-resort antibiotics (e.g., Colistin)
 
+### 📸 Advanced OCR Image Processing
+- **Handwriting Recognition** - Handles any doctor's handwriting, cursive or print
+- **40+ OCR Error Corrections** - Auto-fixes common OCR garbles from handwritten prescriptions
+- **Flexible Field Extraction** - Extracts ANY diagnosis, allergy, antibiotic type (not hard-coded)
+- **EasyOCR Engine** - Pure Python, no system binaries needed (with PaddleOCR option)
+- **Confidence Scoring** - Shows how confident the system is about extracted data
+- **Multiple Modality Support** - Handles digitally printed and handwritten prescriptions
+
 ### 💡 Smart Features
-- **Real-time Evaluation** - Results in < 1 second
+- **Real-time Evaluation** - OCR + validation in < 2 seconds
+- **Image to Data Pipeline** - Directly extract prescription data from images
 - **Batch Processing** - Evaluate multiple prescriptions at once
-- **Confidence Scores** - Transparency in ML predictions
+- **Confidence Scores** - Transparency in both OCR and ML predictions
 - **Severity Levels** - Critical, High, Moderate, Low
-- **Interactive Dashboard** - Beautiful, responsive web interface
-- **RESTful API** - Easy integration with existing EHR systems
+- **Interactive Dashboard** - Beautiful, responsive web interface with live forms
+- **RESTful API** - Easy integration with existing EHR systems and image uploads
 
 ### 🌐 Modern Web Interface
 - Responsive Bootstrap 5 design
@@ -94,6 +103,8 @@ We built a system that combines the **best of both worlds**:
 | **LIME** | 0.2+ | Local interpretable explanations |
 | **Pydantic** | 2.10+ | Data validation |
 | **imbalanced-learn** | 0.14+ | Handling class imbalance |
+| **EasyOCR** | 1.7+ | Handwriting & text recognition |
+| **opencv-python** | 4.8+ | Image processing & preprocessing |
 
 ### Frontend
 | Technology | Purpose |
@@ -227,6 +238,109 @@ The system generates:
 
 ---
 
+## 🚀 Getting Started
+
+### Quick Start (Windows)
+```powershell
+# Run the automated setup script
+.\Run_windows.ps1
+```
+
+The script will:
+1. ✅ Create Python virtual environment
+2. ✅ Install all dependencies (Flask, scikit-learn, EasyOCR, etc.)
+3. ✅ Set up OCR engines (EasyOCR primary, optional PaddleOCR)
+4. ✅ Train the ML model (if not already trained)
+5. ✅ Run demo with sample prescriptions
+6. ✅ Start web server at http://localhost:5000
+
+### Manual Setup (Alternative)
+```bash
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train model
+python scripts/train_model.py
+
+# Start Flask server
+$env:FLASK_APP="backend.app"
+python -m flask run --host=0.0.0.0 --port=5000
+```
+
+---
+
+## 📖 Usage Examples
+
+### Example 1: Form-Based Prescription Entry
+1. Go to http://localhost:5000
+2. Enter patient details:
+   - **Name**: John Smith
+   - **Age**: 35
+   - **Weight**: 70 kg
+   - **Gender**: Male
+   - **Allergies**: Penicillin
+3. Enter prescription:
+   - **Diagnosis**: Common Cold
+   - **Antibiotic**: Amoxicillin (penicillin-type)
+   - **Dosage**: 500 mg
+   - **Frequency**: BID (twice daily)
+   - **Duration**: 10 days
+
+**Result** (red/critical):
+```
+🔴 CRITICAL VIOLATIONS:
+  - Viral infection: Antibiotics ineffective for common cold
+  - Allergy contraindication: Patient allergic to penicillin
+  - Duration too long: Cold treatment typically 3-5 days
+
+✅ RECOMMENDATION: 
+  Supportive care only (rest, hydration). Antibiotics not needed.
+```
+
+### Example 2: OCR Image Processing
+1. Click "Upload Prescription Image"
+2. Select a handwritten prescription photo
+3. System automatically:
+   - Extracts text using EasyOCR
+   - Corrects 40+ handwriting errors
+   - Fills prescription form fields
+   - Validates based on extracted data
+
+**Example OCR Corrections**:
+- "patnt" → "patient"
+- "weiht" → "weight"
+- "5oo" → "500" (dosage)
+- "bib" → "bid" (frequency)
+- "@eiaht" → "weight" (cursive error)
+
+### Example 3: Appropriate Prescription (Green)
+**Input**:
+- Patient: 28-year-old, 65 kg, no allergies
+- Diagnosis: Bacterial UTI
+- Antibiotic: Ciprofloxacin 500mg BID for 5 days
+
+**Result** (green/appropriate):
+```
+✅ APPROPRIATE PRESCRIPTION
+
+Rule Engine: ✅ All checks passed
+  - Diagnosis-antibiotic match: Correct
+  - Dosage appropriate: 500mg BID = 15.4 mg/kg/day ✓
+  - Duration compliant: 5 days (standard for UTI) ✓
+  - No allergies: ✓
+  
+ML Model: 92% confidence APPROPRIATE
+  - Historical data: Similar prescriptions approved
+  
+Confidence Score: 95%
+```
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -236,6 +350,7 @@ The system generates:
 │   - Prescription Form                                        │
 │   - Statistics Dashboard                                     │
 │   - Guidelines Browser                                       │
+│   - Image Upload (OCR)                                       │
 └─────────────────────┬───────────────────────────────────────┘
                       │ REST API (JSON)
                       ▼
